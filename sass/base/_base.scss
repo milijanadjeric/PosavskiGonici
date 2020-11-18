@@ -1,0 +1,47 @@
+// -----------------------------------------------------------------------------
+// This file contains very basic styles.
+// -----------------------------------------------------------------------------
+
+/**
+ * Set up a decent box model on the root element
+ */
+
+/**
+ * Make all elements from the DOM inherit from the parent box-sizing
+ * Since `*` has a specificity of 0, it does not override the `html` value
+ * making all elements inheriting from the root box-sizing value
+ * See: https://css-tricks.com/inheriting-box-sizing-probably-slightly-better-best-practice/
+ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+  -webkit-box-sizing: inherit;
+  -moz-box-sizing: inherit;
+}
+
+/**
+  * This defines what 1 rem is
+  */
+
+html {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  font-size: 62.5%; /*  1rem = 10px   10/16px= 62.5%   */
+  scroll-behavior: smooth;
+
+  @include breakpoint(desktop) {
+    font-size: 58%;
+  }
+
+  @include breakpoint(desktop--Small) {
+    font-size: 52.5%;
+  }
+
+  @include breakpoint(ipad--Landscape) {
+    font-size: 42%;
+  }
+}

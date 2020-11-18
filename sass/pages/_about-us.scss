@@ -1,0 +1,41 @@
+/*  ABOUT US SECTION  */
+
+h2 {
+  @include sectionTitle;
+}
+
+.about-us {
+  height: 100vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: #f8f7f7c0;
+  border-right: 2rem solid rgba(107, 0, 179, 0.753);
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+  }
+
+  &_text {
+    font-family: $fontMont;
+    text-align: justify;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 3rem;
+    width: 52%;
+    border: 1px solid  #4cabcdce;
+    border-radius: 1rem;
+    color: rgba(107, 0, 179, 0.753);
+    padding: 4rem 4rem;
+    box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  }
+}
+
+h2 {
+  @include sectionTitle;
+}
+

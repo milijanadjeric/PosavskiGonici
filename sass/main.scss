@@ -1,0 +1,56 @@
+@charset 'UTF-8';
+
+// 1. Abstracts
+
+@import
+'abstracts/variables',
+'abstracts/mixins',
+'abstracts/breakpoints';
+
+
+// 2. Base stuff
+
+@import
+'base/base',
+'base/animations';
+
+// 4. Components
+
+@import 
+'components/slider',
+'components/full-gallery',
+'components/_button-top';
+
+// 5. Hover-effects
+
+@import 
+'hover-effects/hover';
+
+
+// 3. Layout-related sections
+
+@import
+'layout/header',
+'layout/footer';
+
+
+// 6. Page-specific styles
+
+@import 
+'pages/home',
+'pages/about-us',
+'pages/about-rase',
+'pages/gallery',
+'pages/video',
+'pages/news',
+'pages/kontakt';
+
+
+// 7. Themes
+
+// 8. Vendors 
+
+@import 
+'vendors/slick'
+
+

@@ -1,0 +1,120 @@
+.main {
+  background-color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  justify-content: space-between;
+  height: 90vh;
+  border-left: 2rem solid $primaryColor;
+
+  @include breakpoint(desktop) {
+    height: 92vh;
+  }
+  @include breakpoint(desktop--Small) {
+    height: 92vh;
+  }
+
+  &_title {
+    font-family: $fontMont;
+    text-transform: uppercase;
+    font-weight: 400;
+    color:$mainTitleColor;
+    font-size: 6.5rem;
+    line-height: 10rem;
+    letter-spacing: 0.1rem;
+    align-self: center;
+    padding-left: 11rem;
+    -webkit-animation-name: moveInLeft;
+    animation-name: moveInLeft;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+  }
+
+  &_image {
+    opacity: 0.4;
+    width: 100rem;
+    height: 90vh;
+    -webkit-animation-name: moveInRight;
+    animation-name: moveInRight;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    position: relative;
+
+    @include breakpoint(desktop) {
+      height: 92vh;
+    }
+
+    @include breakpoint(desktop--Small) {
+      height: 92vh;
+    }
+  }
+
+  &_link {
+    -webkit-animation-name: moveInTop;
+    animation-name: moveInTop;
+    -webkit-animation-duration: 3s;
+    animation-duration: 3s;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+    &_facebook {
+      display: flex;
+      align-items: center;
+      width: 20rem;
+      font-family: $fontMont;
+      color: $textWhite;
+      font-weight: 500;
+      font-size: 1.6rem;
+      padding: 1.5rem 5rem;
+      margin-bottom: 2.5rem;
+      background-color: $homeButtonsColor;
+      border-top: 0.1rem solid $homeButtonsBorder;
+      border-bottom: 0.1rem solid $homeButtonsBorder;
+      border-left: 0.1rem solid $homeButtonsBorder;
+      border-top-left-radius: 3rem;
+      border-bottom-left-radius: 3rem;
+      box-shadow: 0 .8rem 2rem 0 rgba(0, 0, 0, 0.4),
+        0 .6rem 2rem 0 rgba(0, 0, 0, 0.4);
+
+      &:hover {
+        cursor: pointer;
+      }
+      &-img {
+        width: 4rem;
+        padding-left: 1rem;
+      }
+    }
+
+    &_contact {
+      display: flex;
+      align-items: center;
+      width: 20rem;
+      font-family: $fontMont;
+      color: $textWhite;
+      font-weight: 500;
+      font-size: 1.6rem;
+      padding: 1.5rem 5rem;
+      margin-bottom: 6rem;
+      background-color: $homeButtonsColor;
+      border-top: 0.1rem solid $homeButtonsBorder;
+      border-bottom: 0.1rem solid $homeButtonsBorder;
+      border-left: 0.1rem solid $homeButtonsBorder;
+      border-top-left-radius: 3rem;
+      border-bottom-left-radius: 3rem;
+      box-shadow: 0 .8rem 2rem 0 rgba(0, 0, 0, 0.4),
+        0 .6rem 2rem 0 rgba(0, 0, 0, 0.4);
+
+      &:hover {
+        cursor: pointer;
+      }
+      &-img {
+        width: 4rem;
+        padding-left: 1rem;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+  }
+}

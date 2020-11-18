@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+// Default Variables
+
+// Slick icon entity codes outputs the following
+// "\2190" outputs ascii character "←"
+// "\2192" outputs ascii character "→"
+// "\2022" outputs ascii character "•"
+
+
+$slick-font-family: "Montserrat" !default;
+$slick-loader-path: "./" !default;
+$slick-arrow-color: red !default;
+$slick-dot-color: red !default;
+$slick-dot-color-active: $slick-dot-color !default;
+$slick-prev-character: "\2190" !default;
+$slick-next-character: "\2192" !default;
+$slick-dot-character: "\2022" !default;
+$slick-dot-size: 6px !default;
+$slick-opacity-default: 0.75 !default;
+$slick-opacity-on-hover: 1 !default;
+$slick-opacity-not-active: 0.8 !default;
+
+
+
+/* Slider */
+
+
+
+
+/* Arrows */
+
+.slick-prev,
+.slick-next {
+    margin-top: 2rem;
+    position: absolute;
+    display: block;
+    line-height: 0px;
+    cursor: pointer;
+    background: transparent;
+    top: 103%;
+    z-index: 50;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    padding: 0;
+    border: none;
+    outline: none;
+    &:hover, &:focus {
+        outline: none;
+        background: transparent;
+        color: red;
+        &:before {
+            opacity: $slick-opacity-on-hover;
+        }
+    }
+    
+    &.slick-disabled:before {
+        opacity: $slick-opacity-not-active;
+    }
+    &:before {
+        font-family: $slick-font-family;
+        font-size: 50px;
+        line-height: 1;
+        color: $slick-arrow-color;
+        opacity: $slick-opacity-default;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+
+    
+}
+
+.slick-prev {
+    left: 40%;
+    [dir="rtl"] & {
+        left: auto;
+        right: -25px;
+        
+    }
+    &:before {
+        content: url(/img/previous.svg);
+        [dir="rtl"] & {
+            content: $slick-next-character;
+        }
+    }
+}
+
+.slick-next {
+    right: 40%;
+    [dir="rtl"] & {
+        left: -25px;
+        right: auto;
+    }
+    &:before {
+        content: url(/img/next.svg);
+        [dir="rtl"] & {
+            content: $slick-prev-character;
+
+        }
+    }
+}
+
+img.next.slick-arrow {
+    margin-top: 6rem;
+    position: absolute;
+    right:10%; 
+    
+
+  
+
+    &.slick-disabled {
+        opacity: 0.3;
+    }
+
+    
+
+    
+}
+
+
+img.previous.slick-arrow {
+    margin-top: 6rem;
+    position: absolute;
+    z-index: 333;
+    top: 100%;
+    left: 10%;
+    
+   
+
+    
+        
+
+    &.slick-disabled {
+        opacity: 0.3;
+    }
+    
+}
+
+

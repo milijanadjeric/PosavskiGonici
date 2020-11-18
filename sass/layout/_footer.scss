@@ -1,0 +1,67 @@
+
+
+.kontakt {
+  height: 50vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color:  rgba(107, 0, 179, 0.753);
+  
+
+  &_left {
+    display: flex;
+    flex-direction: column;
+    width: 20rem;
+    height: 20rem;
+    text-align: center;
+    margin-top: 5rem;
+    
+  
+  }
+
+  &_details {
+    display: flex;
+    align-items: center;
+    
+  }
+
+  &_icons {
+    font-family: $fontMont;
+    font-size: 1.6rem;
+    color:#99ffeb;
+    padding-right:2rem;
+  }
+
+  &_icons i {
+    margin-right: 1rem;
+    line-height: 5rem;
+  }
+
+  &_icons h6 {
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+}
+
+#gmap_canvas {
+  
+  
+  opacity: 0.8;
+}
+
+.footer-text {
+  height: 8vh;
+  background-color: #4cabcdce;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: $fontMont;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color:white;
+  
+}
+
+.link-hidden {
+  visibility: hidden;
+ }

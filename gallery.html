@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="icon" href="https://www.flaticon.com/authors/photo3idea-studio" title="photo3idea_studio">
+    <link rel="icon" href="https://icons8.com/icons/set/image">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+    <title>Galerija</title>
+</head>
+
+<body>
+
+
+    <nav>
+        <a href="index.html"><img class="logo" src="img/logo.svg" alt=""></a>
+        <ul>
+            <li><a href="index.html">početna</a></li>
+            <li><a href="about-us.html">o nama</a></li>
+            <li><a href="about-race.html">o rasi</a></li>
+            <li><a href="video.html">video</a></li>
+            <li><a href="news.html">vesti</a></li>
+        </ul>
+    </nav>
+
+
+    <section class="gallery" id="gallery">
+        <div class="gallery_center">
+            <img src="img/icon_galerija.svg" alt="">
+            <h2>Galerija</h2>
+        </div>
+
+        <div class="gallery_slider autoplay">
+            <img src="img/1.jpg" alt="">
+            <img src="img/2.jpg" alt="">
+            <img src="img/3.jpg" alt="">
+            <img src="img/4.jpg" alt="">
+            <img src="img/5.jpg" alt="">
+            <img src="img/6.jpg" alt="">
+            <img src="img/7.jpg" alt="">
+            <img src="img/8.jpg" alt="">
+            <img src="img/9.jpg" alt="">
+            <img class="deset" src="img/10.jpg" alt="">
+        </div>
+       <div class="gallery_link">
+            <a href="full-gallery.html">
+                <p class="gallery_text hvr-back-pulse">galerija <br> slika<img class="gallery_text-img"
+                        src="img/icon_fullvideo.svg" alt=""></p>
+            </a>
+        </div>
+    </section>
+    
+
+  
+
+    <!-- SLICK SLIDER -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script>
+        $('.autoplay').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            autoplay: true,
+            autoplaySpeed: 1500,
+            pauseOnHover: false,
+            arrows: false,
+        })
+    </script>
+
+    <!-- END OF SLICK  SLIDER  -->
+
+
+</body>
+
+</html>

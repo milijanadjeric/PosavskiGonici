@@ -1,0 +1,48 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color:  rgb(255,255,255);
+  height: 10vh;
+
+  @include breakpoint(desktop) {
+    height: 8vh;
+  }
+
+  @include breakpoint(desktop--Small) {
+    height: 8vh;
+  }
+  
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin-right: 5rem;
+  }
+  li {
+    text-transform: uppercase;
+    padding-right: 80px;
+    font-family: $fontMont;
+    font-size: 1.6rem;
+    font-weight: 500;
+    letter-spacing: .1rem;
+    
+
+    :hover {
+      color: rgba(92, 0, 153, 0.7);
+      cursor: pointer;
+    }
+  }
+
+  li a {
+    text-decoration: none;
+    color: $linksColor;
+  }
+}
+
+.logo {
+  width: 8rem;
+  margin-left: 13rem;
+}
+
+

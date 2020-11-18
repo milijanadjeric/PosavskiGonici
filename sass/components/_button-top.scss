@@ -1,0 +1,34 @@
+#myBtn {
+  font-family: $fontMont;
+  letter-spacing: 1px;
+  font-weight: 600;
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 232px; /* Place the button at the bottom of the page */
+  right: 0; /* Place the button 0px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none; /* Remove borders */
+  outline: none; /* Remove outline */
+  color:white; /* Text color */
+  background-color: $homeButtonsColor;
+  border-top: 0.1rem solid $homeButtonsBorder;
+  border-bottom: 0.1rem solid $homeButtonsBorder;
+  border-top-left-radius: 3rem;
+  border-bottom-left-radius: 3rem;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  cursor: pointer; /* Add a mouse pointer on hover */
+  padding: 15px 15px; /* Some padding */
+  font-size: 16px; /* Increase font size */
+
+  &::before {
+    content: "";
+    border: solid #41dfd0;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    margin-right:8px;
+  }
+}
+

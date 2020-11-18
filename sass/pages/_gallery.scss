@@ -1,0 +1,70 @@
+.gallery {
+  height: 90vh;
+  background-color: #f8f7f7c0;
+  display: flex;
+  flex-direction: column;
+
+  &_center {
+    width: 20rem;
+    height: 20rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  &_slider {
+    display: flex;
+    width: 90%;
+    height: 40vh;
+    margin: 0 auto;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  &_link {
+    align-self: flex-end;
+    margin-top: 3.1rem;
+  
+
+    a {
+      text-decoration: none;
+    }
+  }
+
+  &_text {
+    display: flex;
+    align-items: center;
+    width: 20rem;
+    font-family: $fontMont;
+    color: $textWhite;
+    font-weight: 500;
+    font-size: 1.6rem;
+    padding: 1.5rem 5rem;
+    text-align: center;
+    background-color: $homeButtonsColor;
+    border-top-left-radius: 4rem;
+    border-bottom-left-radius: 4rem;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    border-top: 0.1rem solid $homeButtonsBorder;
+    border-bottom: 0.1rem solid $homeButtonsBorder;
+
+    &-img {
+      width: 5rem;
+      padding-left: 1.5rem;
+    }
+  }
+
+  img {
+    padding-right: 0.1rem;
+    border: none;
+    outline: none;
+  }
+}
+
+.deset {
+  height: 40vh;
+}
