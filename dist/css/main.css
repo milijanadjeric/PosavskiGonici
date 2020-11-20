@@ -504,8 +504,6 @@ nav li a {
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
 }
 
 .overlay-content {
@@ -513,13 +511,6 @@ nav li a {
   top: 15%;
   width: 100%;
   text-align: center;
-  border-left: 1.5rem solid #6b00b3;
-}
-
-@media (max-width: 376px) {
-  .overlay-content {
-    border-left: 1rem solid #6b00b3;
-  }
 }
 
 .overlay-content div {
@@ -533,6 +524,15 @@ nav li a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  border-left: 1.5rem solid #6b00b3;
+  padding-left: 3rem;
+}
+
+@media (max-width: 376px) {
+  .overlay-content div {
+    border-left: 1rem solid #6b00b3;
+    padding-left: 2rem;
+  }
 }
 
 .overlay a {
