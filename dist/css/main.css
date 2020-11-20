@@ -423,7 +423,6 @@ nav ul {
 @media (max-width: 415px) {
   nav ul {
     display: none;
-    margin-right: 0;
   }
 }
 
@@ -434,13 +433,6 @@ nav li {
   font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: .1rem;
-}
-
-@media (max-width: 415px) {
-  nav li {
-    padding-right: 0;
-    line-height: 10rem;
-  }
 }
 
 nav li :hover {
@@ -458,6 +450,12 @@ nav li a {
   margin-left: 13rem;
 }
 
+@media (max-width: 415px) {
+  .logo {
+    margin-left: 8rem;
+  }
+}
+
 /*  mobile nav icon */
 .mobile-nav-icon {
   display: none;
@@ -471,7 +469,7 @@ nav li a {
 
 .mobile-nav-icon_img {
   width: 5rem;
-  margin-right: 13rem;
+  margin-right: 8rem;
 }
 
 .closebtn {
@@ -487,7 +485,7 @@ nav li a {
 .closebtn_img {
   position: absolute;
   width: 5rem;
-  right: 13rem;
+  right: 8rem;
   top: 2rem;
 }
 

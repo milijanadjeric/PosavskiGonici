@@ -13,9 +13,6 @@ nav{
     height: 8vh;
   }
 
-  
-
- 
 
   ul {
     display: flex;
@@ -24,18 +21,9 @@ nav{
 
     @include breakpoint(iPhone) {
       display: none;
-      
-     
-      
-      margin-right: 0;
-      
     }
-
-    
-
-    
-    
   }
+
   li {
     text-transform: uppercase;
     padding-right: 80px;
@@ -43,13 +31,6 @@ nav{
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: .1rem;
-
-    @include breakpoint(iPhone) {
-      padding-right: 0;
-      line-height: 10rem;
-    }
-
-   
 
     :hover {
       color: rgba(92, 0, 153, 0.7);
@@ -66,6 +47,10 @@ nav{
 .logo {
   width: 8rem;
   margin-left: 13rem;
+
+  @include breakpoint(iPhone) {
+    margin-left: 8rem;
+  }
 }
 
 
@@ -82,7 +67,7 @@ nav{
 
   &_img {
     width: 5rem;
-    margin-right: 13rem;
+    margin-right: 8rem;
   }
 }
 
@@ -96,7 +81,7 @@ nav{
   &_img {
     position: absolute;
     width: 5rem;
-    right: 13rem;
+    right: 8rem;
     top: 2rem;
   }
 }
