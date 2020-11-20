@@ -633,6 +633,7 @@ nav li a {
 @media (max-width: 415px) {
   .main {
     height: 94vh;
+    border-left: 1.5rem solid #6b00b3;
   }
 }
 

@@ -13,6 +13,7 @@
   }
   @include breakpoint (iPhone) {
     height: 94vh;
+    border-left: 1.5rem solid $primaryColor;
   }
 
   &_title {
