@@ -1,4 +1,4 @@
-nav {
+nav{
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -12,12 +12,30 @@ nav {
   @include breakpoint(desktop--Small) {
     height: 8vh;
   }
+
   
+
+ 
 
   ul {
     display: flex;
     list-style: none;
     margin-right: 5rem;
+
+    @include breakpoint(iPhone) {
+      flex-direction: column;
+      align-items: center;
+      
+     
+      
+      margin-right: 0;
+      
+    }
+
+    
+
+    
+    
   }
   li {
     text-transform: uppercase;
@@ -26,7 +44,13 @@ nav {
     font-size: 1.6rem;
     font-weight: 500;
     letter-spacing: .1rem;
-    
+
+    @include breakpoint(iPhone) {
+      padding-right: 0;
+      line-height: 10rem;
+    }
+
+   
 
     :hover {
       color: rgba(92, 0, 153, 0.7);
@@ -46,3 +70,66 @@ nav {
 }
 
 
+/*  mobile nav icon */
+
+
+.mobile-nav-icon {
+  display: none;
+
+  @include breakpoint(iPhone) {
+    display: block;
+  
+  }
+
+  &_img {
+    width: 5rem;
+    margin-right: 13rem;
+  }
+}
+
+.closebtn {
+  display: none;
+
+  @include breakpoint(iPhone) {
+    display: block;
+  }
+
+  &_img {
+    position: absolute;
+    width: 5rem;
+    right: 13rem;
+    top: 2rem;
+  }
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+  
+}
+
+.overlay a {
+  padding: .8rem;
+  text-decoration: none;
+  font-size: 3.6rem;
+  color: #6b00b3;
+ 
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}

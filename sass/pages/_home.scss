@@ -46,6 +46,10 @@
     @include breakpoint(desktop--Small) {
       height: 92vh;
     }
+
+    @include breakpoint(iPhone) {
+      display: none;
+    }
   }
 
   &_link {

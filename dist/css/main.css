@@ -35,7 +35,7 @@ html {
   scroll-behavior: smooth;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   html {
     font-size: 58%;
   }
@@ -400,7 +400,7 @@ nav {
   height: 10vh;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   nav {
     height: 8vh;
   }
@@ -420,6 +420,19 @@ nav ul {
   margin-right: 5rem;
 }
 
+@media (max-width: 415px) {
+  nav ul {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-right: 0;
+  }
+}
+
 nav li {
   text-transform: uppercase;
   padding-right: 80px;
@@ -427,6 +440,13 @@ nav li {
   font-size: 1.6rem;
   font-weight: 500;
   letter-spacing: .1rem;
+}
+
+@media (max-width: 415px) {
+  nav li {
+    padding-right: 0;
+    line-height: 10rem;
+  }
 }
 
 nav li :hover {
@@ -442,6 +462,71 @@ nav li a {
 .logo {
   width: 8rem;
   margin-left: 13rem;
+}
+
+/*  mobile nav icon */
+.mobile-nav-icon {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .mobile-nav-icon {
+    display: block;
+  }
+}
+
+.mobile-nav-icon_img {
+  width: 5rem;
+  margin-right: 13rem;
+}
+
+.closebtn {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .closebtn {
+    display: block;
+  }
+}
+
+.closebtn_img {
+  position: absolute;
+  width: 5rem;
+  right: 13rem;
+  top: 2rem;
+}
+
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.9);
+  overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 15%;
+  width: 100%;
+}
+
+.overlay a {
+  padding: .8rem;
+  text-decoration: none;
+  font-size: 3.6rem;
+  color: #6b00b3;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
 }
 
 .kontakt {
@@ -535,7 +620,7 @@ nav li a {
   border-left: 2rem solid #6b00b3;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .main {
     height: 92vh;
   }
@@ -578,7 +663,7 @@ nav li a {
   position: relative;
 }
 
-@media (min-width: 1440px) {
+@media (max-width: 1440px) {
   .main_image {
     height: 92vh;
   }
@@ -587,6 +672,12 @@ nav li a {
 @media (max-width: 1280px) {
   .main_image {
     height: 92vh;
+  }
+}
+
+@media (max-width: 415px) {
+  .main_image {
+    display: none;
   }
 }
 

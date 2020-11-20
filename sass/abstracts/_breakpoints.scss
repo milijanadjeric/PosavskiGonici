@@ -21,7 +21,7 @@
         @media (min-width: $desktop--Large)                 { @content; }
     }
     @if $point == desktop {//max-width = 1440px
-        @media (min-width: $desktop)                        { @content; }
+        @media (max-width: $desktop)                        { @content; }
     }
     @if $point == desktop--Small {//max-width = 1280px
         @media (max-width: $desktop--Small)                 { @content; }
@@ -35,7 +35,7 @@
      @else if $point == ipad {//max-width = 768px
         @media (max-width: $ipad)                         { @content; }
     }
-    @else if $point == iPhone {//max-width = 414px
+    @else if $point == iPhone {//max-width = 767px
         @media (max-width: $iPhone)                         { @content; }
     }
     @else if $point == iPhoneS {//max-width = 414px
@@ -68,7 +68,7 @@ $desktop--Small   : 1280px;    //   1200 / 16px = 75rem
 $ipad--Landscape  : 1024px;
 $ipad             : 768px;
 $tablet           : 800px;    //   1023 / 16px = 64rem
-$iPhone           : 414px;
+$iPhone           : 415px;
 $iPhoneS          : 412px;
 $mobile           : 375px;     //   767 / 16px = 48rem
 $mobile--Small    : 360px;     //   360 / 16px = 22.5rem
