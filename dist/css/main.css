@@ -422,13 +422,7 @@ nav ul {
 
 @media (max-width: 415px) {
   nav ul {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
+    display: none;
     margin-right: 0;
   }
 }
@@ -504,7 +498,7 @@ nav li a {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: white;
   overflow-x: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
@@ -514,19 +508,19 @@ nav li a {
   position: relative;
   top: 15%;
   width: 100%;
+  text-align: center;
 }
 
 .overlay a {
+  font-family: "Montserrat", sans-serif;
+  text-transform: uppercase;
   padding: .8rem;
   text-decoration: none;
   font-size: 3.6rem;
   color: #6b00b3;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-}
-
-.overlay a:hover, .overlay a:focus {
-  color: #f1f1f1;
+  line-height: 10rem;
 }
 
 .kontakt {
