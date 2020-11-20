@@ -53,7 +53,7 @@ nav{
   margin-left: 13rem;
 
   @include breakpoint(iPhone) {
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
 
@@ -71,7 +71,7 @@ nav{
 
   &_img {
     width: 5rem;
-    margin-right: 8rem;
+    margin-right: 6rem;
   }
 }
 

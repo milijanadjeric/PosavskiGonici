@@ -458,7 +458,7 @@ nav li a {
 
 @media (max-width: 415px) {
   .logo {
-    margin-left: 8rem;
+    margin-left: 6rem;
   }
 }
 
@@ -475,7 +475,7 @@ nav li a {
 
 .mobile-nav-icon_img {
   width: 5rem;
-  margin-right: 8rem;
+  margin-right: 6rem;
 }
 
 .closebtn {
