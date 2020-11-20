@@ -13,9 +13,7 @@ nav{
     height: 8vh;
   }
 
-  @include breakpoint(iPhone) {
-    height: 7rem;
-  }
+  
 
 
   ul {
