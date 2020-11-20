@@ -15,7 +15,9 @@
     height: 94vh;
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
-    
+  }
+  @include breakpoint (mobile) {
+    border-left: 1rem solid $primaryColor;
   }
 
   &_title {
@@ -64,9 +66,7 @@
       display: none;
     }
 
-    @include breakpoint(mobile) {
-      height: 35vh;
-    }
+    
   }
 
   &_link {

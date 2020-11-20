@@ -641,6 +641,12 @@ nav li a {
   }
 }
 
+@media (max-width: 376px) {
+  .main {
+    border-left: 1rem solid #6b00b3;
+  }
+}
+
 .main_title {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -695,12 +701,6 @@ nav li a {
 @media (max-width: 415px) {
   .main_image {
     display: none;
-  }
-}
-
-@media (max-width: 376px) {
-  .main_image {
-    height: 35vh;
   }
 }
 
