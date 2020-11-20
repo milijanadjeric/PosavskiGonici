@@ -123,6 +123,10 @@
       box-shadow: 0 .8rem 2rem 0 rgba(0, 0, 0, 0.4),
         0 .6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
+        @include breakpoint(iPhone) {
+          margin-bottom: 3rem;
+        }
+
       &:hover {
         cursor: pointer;
       }

@@ -768,6 +768,12 @@ nav li a {
           box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 }
 
+@media (max-width: 415px) {
+  .main_link_contact {
+    margin-bottom: 3rem;
+  }
+}
+
 .main_link_contact:hover {
   cursor: pointer;
 }
