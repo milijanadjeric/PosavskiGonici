@@ -14,6 +14,8 @@
   @include breakpoint (iPhone) {
     height: 94vh;
     border-left: 1.5rem solid $primaryColor;
+    flex-direction: column;
+    
   }
 
   &_title {
@@ -30,6 +32,12 @@
     animation-name: moveInLeft;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
+
+    @include breakpoint(iPhone) {
+      padding-left: 0;
+      text-align: justify;
+      padding-top: 20%;
+    }
   }
 
   &_image {
@@ -52,7 +60,10 @@
     }
 
     @include breakpoint(iPhone) {
-      display: none;
+      width: 100%;
+      height: 40vh;
+      clip-path: none;
+      // display: none;
     }
   }
 
