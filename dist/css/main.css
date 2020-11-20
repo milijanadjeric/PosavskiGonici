@@ -516,6 +516,12 @@ nav li a {
   border-left: 1.5rem solid #6b00b3;
 }
 
+@media (max-width: 376px) {
+  .overlay-content {
+    border-left: 1rem solid #6b00b3;
+  }
+}
+
 .overlay-content div {
   display: -webkit-box;
   display: -ms-flexbox;

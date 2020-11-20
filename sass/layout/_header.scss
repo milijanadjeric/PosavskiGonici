@@ -110,6 +110,10 @@ nav{
   text-align: center;
   border-left: 1.5rem solid $primaryColor;
 
+  @include breakpoint(mobile) {
+    border-left: 1rem solid $primaryColor;
+  }
+
   & div {
     display: flex;
     flex-direction: column;
