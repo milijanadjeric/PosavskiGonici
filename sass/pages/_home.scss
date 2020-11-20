@@ -63,7 +63,12 @@
       width: 100%;
       height: 40vh;
       clip-path: none;
+    
       // display: none;
+    }
+
+    @include breakpoint(mobile) {
+      height: 35vh;
     }
   }
 

@@ -701,6 +701,12 @@ nav li a {
   }
 }
 
+@media (max-width: 376px) {
+  .main_image {
+    height: 35vh;
+  }
+}
+
 .main_link {
   -webkit-animation-name: moveInTop;
   animation-name: moveInTop;
