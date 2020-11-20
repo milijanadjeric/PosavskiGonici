@@ -112,7 +112,8 @@ nav{
 
   
 
-  & div {
+  &_links {
+    height: 21rem;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -123,9 +124,15 @@ nav{
       border-left: 1rem solid $primaryColor;
       padding-left: 2rem;
     }
-    
+ 
     
   }
+
+  &_no-padding-bottom {
+    padding-bottom: 0 !important;
+    padding-top: 0 !important;
+  }
+  
 
   
   

@@ -513,7 +513,8 @@ nav li a {
   text-align: center;
 }
 
-.overlay-content div {
+.overlay-content_links {
+  height: 21rem;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -529,10 +530,15 @@ nav li a {
 }
 
 @media (max-width: 376px) {
-  .overlay-content div {
+  .overlay-content_links {
     border-left: 1rem solid #6b00b3;
     padding-left: 2rem;
   }
+}
+
+.overlay-content_no-padding-bottom {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
 }
 
 .overlay a {
