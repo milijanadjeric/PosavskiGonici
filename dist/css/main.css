@@ -513,6 +513,20 @@ nav li a {
   top: 15%;
   width: 100%;
   text-align: center;
+  border-left: 1.5rem solid #6b00b3;
+}
+
+.overlay-content div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
 }
 
 .overlay a {
@@ -712,6 +726,12 @@ nav li a {
   position: absolute;
   right: 0;
   bottom: 0;
+}
+
+@media (max-width: 415px) {
+  .main_link {
+    display: none;
+  }
 }
 
 .main_link_facebook {

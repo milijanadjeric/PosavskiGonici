@@ -78,6 +78,10 @@
     right: 0;
     bottom: 0;
 
+    @include breakpoint(iPhone) {
+      display: none;
+    }
+
     &_facebook {
       display: flex;
       align-items: center;
