@@ -77,6 +77,10 @@
     margin: 16.85rem 0;
   }
 
+  @include breakpoint (tablet) {
+    margin: 12.4rem 0;
+  }
+
   
   
 

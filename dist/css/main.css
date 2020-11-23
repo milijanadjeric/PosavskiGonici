@@ -1333,6 +1333,12 @@ iframe {
   }
 }
 
+@media (max-width: 800px) {
+  .kontakt2-form {
+    margin: 12.4rem 0;
+  }
+}
+
 input[type="text"],
 select,
 textarea {
