@@ -910,6 +910,12 @@ h2 {
   text-align: center;
 }
 
+@media (max-width: 415px) {
+  .about-us_left {
+    margin: 2rem 0;
+  }
+}
+
 .about-us_text {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
