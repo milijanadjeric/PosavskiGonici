@@ -250,6 +250,7 @@ html {
   .full-gallery {
     padding-right: 2rem;
     padding-left: 2rem;
+    padding-bottom: 7rem;
   }
 }
 
@@ -302,10 +303,15 @@ html {
   }
 }
 
+@media (max-width: 415px) {
+  .hidden {
+    display: none;
+  }
+}
+
 #myBtn {
   font-family: "Montserrat", sans-serif;
-  letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 400;
   display: none;
   /* Hidden by default */
   position: fixed;
@@ -346,6 +352,39 @@ html {
   transform: rotate(-135deg);
   -webkit-transform: rotate(-135deg);
   margin-right: 8px;
+}
+
+.loadMore {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .loadMore {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-family: "Montserrat", sans-serif;
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2.2rem 7rem;
+    text-align: center;
+    background-color: #7a00cc;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+            box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    border-top: 0.1rem solid #99ffeb;
+    border-bottom: 0.1rem solid #99ffeb;
+    margin: 14px auto;
+  }
 }
 
 /*!

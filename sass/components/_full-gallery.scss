@@ -9,6 +9,7 @@
   @include breakpoint(iPhone) {
     padding-right: 2rem;
     padding-left: 2rem;
+    padding-bottom: 7rem;
   }
   
 }
@@ -19,8 +20,11 @@
   border: none;
   outline: none;
   }
+
+ 
   
 }
+
 
 
 
@@ -60,3 +64,8 @@
   }
 }
 
+.hidden {
+  @include breakpoint(iPhone) {
+    display: none;
+  }
+}

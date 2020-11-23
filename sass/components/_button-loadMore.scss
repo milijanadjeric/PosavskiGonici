@@ -1,0 +1,27 @@
+.loadMore {
+  display: none;
+
+  @include breakpoint(iPhone) {
+    display: flex;
+    align-items: center;
+    font-family: $fontMont;
+    color: $textWhite;
+    font-weight: 400;
+    font-size: 16px;
+    padding: 2.2rem 7rem;
+    text-align: center;
+    background-color: $homeButtonsColor;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
+      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border: none;
+    outline: none;
+    border-top: 0.1rem solid $homeButtonsBorder;
+    border-bottom: 0.1rem solid $homeButtonsBorder;
+    margin: 14px auto;
+    
+  }
+}

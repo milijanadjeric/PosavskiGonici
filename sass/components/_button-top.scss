@@ -1,7 +1,6 @@
 #myBtn {
   font-family: $fontMont;
-  letter-spacing: 1px;
-  font-weight: 600;
+  font-weight: 400;
   display: none; /* Hidden by default */
   position: fixed; /* Fixed/sticky position */
   bottom: 232px; /* Place the button at the bottom of the page */
@@ -19,6 +18,8 @@
   cursor: pointer; /* Add a mouse pointer on hover */
   padding: 15px 15px; /* Some padding */
   font-size: 16px; /* Increase font size */
+
+  
 
 
   &::before {
