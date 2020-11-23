@@ -16,6 +16,10 @@ h2 {
     height: 92vh;
   }
 
+  @include breakpoint(tablet) {
+    height: 50vh;
+  }
+
   &_left {
     display: flex;
     flex-direction: column;

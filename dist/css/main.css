@@ -554,6 +554,14 @@ nav li a {
   background-color: rgba(107, 0, 179, 0.753);
 }
 
+@media (max-width: 1280px) {
+  .kontakt {
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+  }
+}
+
 .kontakt_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -835,6 +843,12 @@ h2 {
   }
 }
 
+@media (max-width: 800px) {
+  .about-us {
+    height: 50vh;
+  }
+}
+
 .about-us_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -891,6 +905,12 @@ h2 {
 @media (max-width: 1440px) {
   .about-race {
     height: 92vh;
+  }
+}
+
+@media (max-width: 800px) {
+  .about-race {
+    height: 50vh;
   }
 }
 
@@ -1203,6 +1223,12 @@ iframe {
   }
 }
 
+@media (max-width: 1280px) {
+  .kontakt2 {
+    height: 100%;
+  }
+}
+
 .kontakt2_center {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1269,6 +1295,12 @@ iframe {
   font-weight: 600;
   color: #4cabcdce;
   border: 1px solid #4cabcdce;
+}
+
+@media (max-width: 1280px) {
+  .kontakt2-form {
+    margin: 16.85rem 0;
+  }
 }
 
 input[type="text"],

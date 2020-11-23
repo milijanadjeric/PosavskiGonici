@@ -10,6 +10,10 @@
     height: 92vh;
   }
 
+  @include breakpoint(desktop--Small) {
+    height: 100%;
+  }
+
   &_center {
     display: flex;
     flex-direction: column;
@@ -69,12 +73,13 @@
   color:  #4cabcdce;
   border: 1px solid #4cabcdce;
 
-  
-  
+  @include breakpoint(desktop--Small) {
+    margin: 16.85rem 0;
+  }
+
   
   
 
-  
 }
 
 input[type="text"],

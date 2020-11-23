@@ -9,6 +9,9 @@
     @include breakpoint(desktop) {
       height: 92vh;
     }
+    @include breakpoint(tablet) {
+      height: 50vh;
+    }
     
   
     &_right {
