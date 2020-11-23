@@ -8,7 +8,9 @@ nav{
   @include breakpoint(desktop) {
     height: 8vh;
   }
-
+  @include breakpoint(ipad--Landscape) {
+    height: 5vh;
+  }
   
   
 
@@ -18,6 +20,10 @@ nav{
     list-style: none;
     margin-right: 5rem;
 
+    @include breakpoint(tablet) {
+      margin-right: 0;
+    }
+
     @include breakpoint(iPhone) {
       display: none;
     }
@@ -25,7 +31,7 @@ nav{
 
   li {
     text-transform: uppercase;
-    padding-right: 80px;
+    padding-right: 8rem;
     font-family: $fontMont;
     font-size: 1.6rem;
     font-weight: 500;
@@ -46,6 +52,10 @@ nav{
 .logo {
   width: 8rem;
   margin-left: 13rem;
+
+  @include breakpoint(tablet) {
+    margin-left: 3rem;
+  }
 
   @include breakpoint(iPhone) {
     margin-left: 6rem;

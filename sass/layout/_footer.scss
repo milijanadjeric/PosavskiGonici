@@ -9,7 +9,11 @@
 
   @include breakpoint(desktop--Small) {
     justify-content: space-evenly;
-  }  
+  } 
+  
+  @include breakpoint(ipad--Landscape) {
+    height: 35vh;
+  }
 
   &_left {
     display: flex;
@@ -47,8 +51,6 @@
 }
 
 #gmap_canvas {
-  
-  
   opacity: 0.8;
 }
 
@@ -62,6 +64,10 @@
   font-size: 1.5rem;
   font-weight: 400;
   color:white;
+
+  @include breakpoint(ipad--Landscape) {
+    height: 5vh;
+  }
   
 }
 

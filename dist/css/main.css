@@ -406,12 +406,24 @@ nav {
   }
 }
 
+@media (max-width: 1024px) {
+  nav {
+    height: 5vh;
+  }
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   list-style: none;
   margin-right: 5rem;
+}
+
+@media (max-width: 800px) {
+  nav ul {
+    margin-right: 0;
+  }
 }
 
 @media (max-width: 415px) {
@@ -422,7 +434,7 @@ nav ul {
 
 nav li {
   text-transform: uppercase;
-  padding-right: 80px;
+  padding-right: 8rem;
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   font-weight: 500;
@@ -442,6 +454,12 @@ nav li a {
 .logo {
   width: 8rem;
   margin-left: 13rem;
+}
+
+@media (max-width: 800px) {
+  .logo {
+    margin-left: 3rem;
+  }
 }
 
 @media (max-width: 415px) {
@@ -562,6 +580,12 @@ nav li a {
   }
 }
 
+@media (max-width: 1024px) {
+  .kontakt {
+    height: 35vh;
+  }
+}
+
 .kontakt_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -622,6 +646,12 @@ nav li a {
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .footer-text {
+    height: 5vh;
+  }
 }
 
 .link-hidden {
@@ -1273,9 +1303,9 @@ iframe {
   font-size: 1.5rem;
   color: white;
   font-weight: 500;
-  padding: 15px;
-  letter-spacing: 0.2px;
-  border: 1px solid #99ffeb;
+  padding: 1.5rem;
+  letter-spacing: .1rem;
+  border: .1rem solid #99ffeb;
   border-radius: 3rem;
   outline: none;
   cursor: pointer;
@@ -1328,8 +1358,20 @@ input[type="text"] {
   margin-left: 25px;
 }
 
+@media (max-width: 1024px) {
+  input[type="text"] {
+    width: 250px;
+  }
+}
+
 .kontakt2-form-email {
   margin-left: 12px !important;
+}
+
+@media (max-width: 1280px) {
+  .kontakt2-form-email {
+    margin-left: 15px !important;
+  }
 }
 
 textarea {

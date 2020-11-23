@@ -50,9 +50,9 @@
     font-size: 1.5rem;
     color: white;
     font-weight: 500;
-    padding: 15px;
-    letter-spacing: 0.2px;
-    border: 1px solid #99ffeb;
+    padding: 1.5rem;
+    letter-spacing: .1rem;
+    border: .1rem solid #99ffeb;
     border-radius: 3rem;
     outline: none;
     cursor: pointer;
@@ -105,10 +105,19 @@ textarea {
 input[type="text"] {
   width: 350px;
   margin-left: 25px;
+
+  @include breakpoint(ipad--Landscape) {
+    width: 250px;
+    
+  }
 }
 
 .kontakt2-form-email {
   margin-left: 12px !important;
+
+  @include breakpoint(desktop--Small) {
+    margin-left: 15px !important;
+  }
 }
 
 
