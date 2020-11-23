@@ -14,6 +14,7 @@
   @include breakpoint (iPhone) {
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
+    justify-content: center;
   }
   @include breakpoint (mobile) {
     border-left: 1rem solid $primaryColor;
@@ -37,7 +38,7 @@
     @include breakpoint(iPhone) {
       padding-left: 0;
       text-align: justify;
-      padding-top: 20%;
+      
     }
   }
 

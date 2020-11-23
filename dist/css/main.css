@@ -406,9 +406,15 @@ nav {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   nav {
     height: 5vh;
+  }
+}
+
+@media (max-width: 415px) {
+  nav {
+    height: 8vh;
   }
 }
 
@@ -689,6 +695,9 @@ nav li a {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
   }
 }
 
@@ -720,7 +729,6 @@ nav li a {
   .main_title {
     padding-left: 0;
     text-align: justify;
-    padding-top: 20%;
   }
 }
 
