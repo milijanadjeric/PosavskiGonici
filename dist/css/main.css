@@ -406,12 +406,6 @@ nav {
   }
 }
 
-@media (max-width: 1280px) {
-  nav {
-    height: 8vh;
-  }
-}
-
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -821,7 +815,7 @@ h2 {
 }
 
 .about-us {
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -833,6 +827,12 @@ h2 {
           align-items: center;
   background-color: #f8f7f7c0;
   border-right: 2rem solid rgba(107, 0, 179, 0.753);
+}
+
+@media (max-width: 1440px) {
+  .about-us {
+    height: 92vh;
+  }
 }
 
 .about-us_left {
@@ -854,7 +854,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 3rem;
-  width: 52%;
+  width: 80rem;
   border: 1px solid  #4cabcdce;
   border-radius: 1rem;
   color: rgba(107, 0, 179, 0.753);
@@ -874,7 +874,7 @@ h2 {
 }
 
 .about-race {
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -886,6 +886,12 @@ h2 {
           align-items: center;
   background-color: #f8f7f7c0;
   border-right: 2rem solid rgba(107, 0, 179, 0.753);
+}
+
+@media (max-width: 1440px) {
+  .about-race {
+    height: 92vh;
+  }
 }
 
 .about-race_right {
@@ -907,7 +913,7 @@ h2 {
   font-size: 1.5rem;
   font-weight: 500;
   line-height: 3rem;
-  width: 52%;
+  width: 80rem;
   color: #4cabcdce;
   background-color: #f8f7f7c0;
   border: 1px solid rgba(107, 0, 179, 0.753);
@@ -1177,7 +1183,7 @@ iframe {
 }
 
 .kontakt2 {
-  height: 100vh;
+  height: 90vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1189,6 +1195,12 @@ iframe {
           align-items: center;
   background-color: #f8f7f7c0;
   border-right: 2rem solid rgba(107, 0, 179, 0.753);
+}
+
+@media (max-width: 1440px) {
+  .kontakt2 {
+    height: 92vh;
+  }
 }
 
 .kontakt2_center {
@@ -1246,7 +1258,7 @@ iframe {
 
 .kontakt2-form {
   position: relative;
-  width: 52%;
+  width: 80rem;
   border-radius: 5px;
   background-color: #f8f7f7c0;
   padding: 54px 70px 90px;
