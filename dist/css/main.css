@@ -631,11 +631,29 @@ nav li a {
           align-items: center;
 }
 
+@media (max-width: 415px) {
+  .kontakt_details {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .kontakt_icons {
   font-family: "Montserrat", sans-serif;
   font-size: 1.6rem;
   color: #99ffeb;
   padding-right: 2rem;
+}
+
+@media (max-width: 415px) {
+  .kontakt_icons {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    padding-right: 0;
+  }
 }
 
 .kontakt_icons i {
@@ -648,6 +666,16 @@ nav li a {
   font-weight: 500;
 }
 
+.kontakt_icons h6:not(:last-child) {
+  padding-right: 25px;
+}
+
+@media (max-width: 415px) {
+  .kontakt_icons .hide {
+    display: none;
+  }
+}
+
 #gmap_canvas {
   width: 340px;
   height: 250px;
@@ -656,8 +684,9 @@ nav li a {
 
 @media (max-width: 415px) {
   #gmap_canvas {
-    width: 200px;
-    height: 100px;
+    width: 350px;
+    height: 150px;
+    margin: 20px 0;
   }
 }
 
@@ -951,7 +980,7 @@ h2 {
   width: 80rem;
   border: 1px solid  #4cabcdce;
   border-radius: 1rem;
-  color: rgba(107, 0, 179, 0.753);
+  color: grey;
   padding: 4rem 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
@@ -1008,6 +1037,7 @@ h2 {
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
+    border-right: none;
   }
 }
 
@@ -1022,6 +1052,12 @@ h2 {
   width: 20rem;
   height: 20rem;
   text-align: center;
+}
+
+@media (max-width: 415px) {
+  .about-race_right {
+    margin: 3rem 0;
+  }
 }
 
 .about-race_text {
@@ -1043,6 +1079,7 @@ h2 {
 @media (max-width: 415px) {
   .about-race_text {
     width: 40rem;
+    margin-bottom: 3rem;
   }
 }
 

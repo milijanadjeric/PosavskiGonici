@@ -15,6 +15,7 @@
     @include breakpoint(iPhone) {
       height: 100%;
       flex-direction: column-reverse;
+      border-right: none;
     }
     
   
@@ -24,6 +25,10 @@
       width: 20rem;
       height: 20rem;
       text-align: center;
+
+      @include breakpoint(iPhone) {
+        margin: 3rem 0;
+      }
     }
   
     &_text {
@@ -42,6 +47,7 @@
 
       @include breakpoint(iPhone) {
         width: 40rem;
+        margin-bottom: 3rem;
         
       }
       

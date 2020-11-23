@@ -38,6 +38,10 @@
   &_details {
     display: flex;
     align-items: center;
+
+    @include breakpoint(iPhone)  {
+      flex-direction: column;
+    }
     
   }
 
@@ -46,6 +50,12 @@
     font-size: 1.6rem;
     color:#99ffeb;
     padding-right:2rem;
+
+
+    @include breakpoint(iPhone) {
+      display: flex;
+      padding-right: 0;
+    }
   }
 
   &_icons i {
@@ -56,6 +66,18 @@
   &_icons h6 {
     font-size: 1.6rem;
     font-weight: 500;
+
+    &:not(:last-child) {
+      padding-right: 25px;
+    }
+  }
+
+  &_icons .hide {
+
+    @include breakpoint(iPhone) {
+      display: none;
+    }
+    
   }
 }
 
@@ -65,8 +87,9 @@
   opacity: 0.8;
 
   @include breakpoint (iPhone) {
-    width: 200px;
-    height: 100px;
+    width: 350px;
+    height: 150px;
+    margin: 20px 0;
   }
 }
 
