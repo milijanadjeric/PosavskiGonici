@@ -1073,8 +1073,9 @@ h2 {
 
 @media (max-width: 415px) {
   .about-race_text {
-    width: 40rem;
-    margin-bottom: 3rem;
+    width: 45rem;
+    margin-bottom: 8rem;
+    font-size: 12px !important;
   }
 }
 
