@@ -23,6 +23,7 @@ h2 {
   @include breakpoint(iPhone) {
     height: 100%;
     flex-direction: column;
+    border-right: none;
   }
 
   &_left {
@@ -33,7 +34,7 @@ h2 {
     text-align: center;
 
     @include breakpoint(iPhone) {
-      margin: 2rem 0;
+      margin: 3rem 0;
     }
   }
 
@@ -52,6 +53,7 @@ h2 {
 
     @include breakpoint(iPhone) {
       width: 40rem;
+      margin-bottom: 3rem;
       
     }
   }

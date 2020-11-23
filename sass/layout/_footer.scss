@@ -14,6 +14,11 @@
   @include breakpoint(ipad--Landscape) {
     height: 35vh;
   }
+  @include breakpoint(iPhone) {
+    flex-direction: column;
+    height: 100%;
+    
+  }
 
   &_left {
     display: flex;
@@ -22,6 +27,10 @@
     height: 20rem;
     text-align: center;
     margin-top: 5rem;
+
+    @include breakpoint(iPhone) {
+      margin-bottom: 2rem;
+    }
     
   
   }
@@ -51,7 +60,14 @@
 }
 
 #gmap_canvas {
+  width: 340px;
+  height: 250px;
   opacity: 0.8;
+
+  @include breakpoint (iPhone) {
+    width: 200px;
+    height: 100px;
+  }
 }
 
 .footer-text {
