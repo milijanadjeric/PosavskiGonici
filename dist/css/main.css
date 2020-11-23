@@ -887,6 +887,16 @@ h2 {
   }
 }
 
+@media (max-width: 415px) {
+  .about-us {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
 .about-us_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -913,6 +923,12 @@ h2 {
   padding: 4rem 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 415px) {
+  .about-us_text {
+    width: 40rem;
+  }
 }
 
 h2 {
@@ -952,6 +968,16 @@ h2 {
   }
 }
 
+@media (max-width: 415px) {
+  .about-race {
+    height: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
 .about-race_right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -979,6 +1005,12 @@ h2 {
   padding: 4rem 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 415px) {
+  .about-race_text {
+    width: 40rem;
+  }
 }
 
 .gallery {
@@ -1264,6 +1296,15 @@ iframe {
 @media (max-width: 1280px) {
   .kontakt2 {
     height: 100%;
+  }
+}
+
+@media (max-width: 415px) {
+  .kontakt2 {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

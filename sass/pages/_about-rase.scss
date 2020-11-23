@@ -12,6 +12,10 @@
     @include breakpoint(tablet) {
       height: 55vh;
     }
+    @include breakpoint(iPhone) {
+      height: 100%;
+      flex-direction: column-reverse;
+    }
     
   
     &_right {
@@ -35,6 +39,11 @@
       border-radius: 1rem;
       padding: 4rem 4rem;
       box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+      @include breakpoint(iPhone) {
+        width: 40rem;
+        
+      }
       
     }
   }

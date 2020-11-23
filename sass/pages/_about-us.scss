@@ -20,6 +20,11 @@ h2 {
     height: 55vh;
   }
 
+  @include breakpoint(iPhone) {
+    height: 100%;
+    flex-direction: column;
+  }
+
   &_left {
     display: flex;
     flex-direction: column;
@@ -40,6 +45,11 @@ h2 {
     color: rgba(107, 0, 179, 0.753);
     padding: 4rem 4rem;
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+    @include breakpoint(iPhone) {
+      width: 40rem;
+      
+    }
   }
 }
 
