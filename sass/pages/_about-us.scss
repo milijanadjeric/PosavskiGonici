@@ -42,7 +42,7 @@ h2 {
     font-family: $fontMont;
     text-align: justify;
     font-size: 1.5rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 3rem;
     width: 80rem;
     border: 1px solid  #4cabcdce;
@@ -52,8 +52,9 @@ h2 {
     box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 
     @include breakpoint(iPhone) {
-      width: 40rem;
-      margin-bottom: 3rem;
+      width: 45rem;
+      margin-bottom: 8rem;
+      font-size: 12px !important;
       
     }
   }

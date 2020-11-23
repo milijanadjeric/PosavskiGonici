@@ -586,7 +586,7 @@ nav li a {
   }
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 800px) {
   .kontakt {
     height: 35vh;
   }
@@ -618,7 +618,7 @@ nav li a {
 
 @media (max-width: 415px) {
   .kontakt_left {
-    margin-bottom: 2rem;
+    margin-bottom: 5rem;
   }
 }
 
@@ -667,7 +667,7 @@ nav li a {
 }
 
 .kontakt_icons h6:not(:last-child) {
-  padding-right: 25px;
+  padding-right: 20px;
 }
 
 @media (max-width: 415px) {
@@ -684,7 +684,7 @@ nav li a {
 
 @media (max-width: 415px) {
   #gmap_canvas {
-    width: 350px;
+    width: 310px;
     height: 150px;
     margin: 20px 0;
   }
@@ -706,12 +706,6 @@ nav li a {
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
-}
-
-@media (max-width: 1024px) {
-  .footer-text {
-    height: 5vh;
-  }
 }
 
 .link-hidden {
@@ -975,7 +969,7 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 3rem;
   width: 80rem;
   border: 1px solid  #4cabcdce;
@@ -988,8 +982,9 @@ h2 {
 
 @media (max-width: 415px) {
   .about-us_text {
-    width: 40rem;
-    margin-bottom: 3rem;
+    width: 45rem;
+    margin-bottom: 8rem;
+    font-size: 12px !important;
   }
 }
 
@@ -1064,10 +1059,10 @@ h2 {
   font-family: "Montserrat", sans-serif;
   text-align: justify;
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 400;
   line-height: 3rem;
   width: 80rem;
-  color: #4cabcdce;
+  color: grey;
   background-color: #f8f7f7c0;
   border: 1px solid rgba(107, 0, 179, 0.753);
   border-radius: 1rem;
@@ -1318,7 +1313,6 @@ iframe {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  color: rgba(107, 0, 179, 0.753);
   padding: 2rem;
   border: 1px solid #41dfd0;
   border-radius: 1rem;
@@ -1333,6 +1327,7 @@ iframe {
   font-size: 1.8rem;
   font-weight: 700;
   padding-bottom: 1rem;
+  color: grey;
 }
 
 .news_content_text-text {
@@ -1340,6 +1335,7 @@ iframe {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 2.5rem;
+  color: grey;
 }
 
 .kontakt2 {
@@ -1475,7 +1471,7 @@ textarea {
   color: grey;
   font-family: "Montserrat", sans-serif;
   font-size: 1.3rem;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 input[type="text"] {

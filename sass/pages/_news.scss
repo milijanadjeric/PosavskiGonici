@@ -44,7 +44,6 @@
       &_text {
         display: flex;
         flex-direction: column;
-        color: rgba(107, 0, 179, 0.753);
         padding: 2rem;
         border: 1px solid #41dfd0;
         border-radius: 1rem;
@@ -57,12 +56,14 @@
           font-size: 1.8rem;
           font-weight: 700;
           padding-bottom: 1rem;
+          color:  grey;
         }
         &-text {
           font-family: $fontMont;
           font-size: 1.4rem;
           font-weight: 500;
           line-height: 2.5rem;
+          color: grey;
         }
       }
     }
