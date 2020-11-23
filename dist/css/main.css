@@ -250,7 +250,7 @@ html {
   .full-gallery {
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-bottom: 7rem;
+    padding-bottom: 6px;
   }
 }
 
@@ -383,7 +383,7 @@ html {
     outline: none;
     border-top: 0.1rem solid #99ffeb;
     border-bottom: 0.1rem solid #99ffeb;
-    margin: 14px auto;
+    margin: 30px auto;
   }
 }
 
