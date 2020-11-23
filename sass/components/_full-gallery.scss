@@ -5,15 +5,18 @@
   padding-right: 12rem;
   padding-left: 12rem;
   background-color: #f8f7f7c0;
+
+  @include breakpoint(iPhone) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+  }
   
-
-
 }
 
 .single-item {
 
   &_box {
-    border: none;
+  border: none;
   outline: none;
   }
   
@@ -24,9 +27,7 @@
 .row {
   display: flex;
   flex-wrap: wrap;
-  padding: 0 3px;
- 
-  
+  padding: 0 3px; 
 }
 
 /* Create four equal columns that sits next to each other */
@@ -52,7 +53,7 @@
 }
 
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 415px) {
   .column {
     flex: 100%;
     max-width: 100%;

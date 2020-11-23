@@ -45,8 +45,10 @@ html {
     font-size: 42%;
   }
 
-  @include breakpoint(iPhone) {
+  @include breakpoint(mobile--Smallest) {
+    font-size: 38%;
     
+
   }
 
   
