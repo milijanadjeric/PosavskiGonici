@@ -119,7 +119,7 @@
     outline: none;
 
     @include breakpoint (iPhone) {
-      padding-right: none;
+      padding-right: 0;
     }
 
     
