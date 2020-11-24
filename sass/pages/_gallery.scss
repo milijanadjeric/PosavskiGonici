@@ -33,6 +33,12 @@
       padding-top: 6rem;
       margin-bottom: 14rem;
     }
+    @include breakpoint (iPhone) {
+      padding-top: 3rem;
+    }
+    @include breakpoint(mobile--Smallest) {
+      margin-bottom: 10rem;
+    }
   }
 
   &_slider {
@@ -70,6 +76,9 @@
 
     @include breakpoint(ipad--Landscape) {
       margin-top: 12rem;
+    }
+    @include breakpoint(mobile--Smallest) {
+      margin-top: 8rem;
     }
   
 
@@ -121,6 +130,9 @@
   @include breakpoint(desktop) {
     height: 35vh;
   }
+  @include breakpoint (tablet) {
+    height: 10vh;
+  }
 
   @include breakpoint (iPhone) {
     height: 30vh;
@@ -132,6 +144,9 @@
 
   @include breakpoint(desktop) {
     height: 35vh;
+  }
+  @include breakpoint (tablet) {
+    height: 10vh;
   }
   @include breakpoint (iPhone) {
     height: 30vh;
