@@ -12,6 +12,10 @@
     height: 95vh;
   }
 
+  @include breakpoint (iPhone) {
+    height: 92vh;
+  }
+
   &_center {
     width: 20rem;
     height: 20rem;
@@ -49,6 +53,10 @@
 
        @include breakpoint (tablet) {
          height: 10vh;
+       }
+
+       @include breakpoint (iPhone) {
+         height: 30vh;
        }
   }
 
@@ -100,12 +108,22 @@
     padding-right: 0.1rem;
     border: none;
     outline: none;
+
+    @include breakpoint (iPhone) {
+      padding-right: none;
+    }
+
+    
   }
 }
 
 .cetiri {
   @include breakpoint(desktop) {
     height: 35vh;
+  }
+
+  @include breakpoint (iPhone) {
+    height: 30vh;
   }
 }
 
@@ -114,5 +132,8 @@
 
   @include breakpoint(desktop) {
     height: 35vh;
+  }
+  @include breakpoint (iPhone) {
+    height: 30vh;
   }
 }

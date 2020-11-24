@@ -1143,6 +1143,12 @@ h2 {
   }
 }
 
+@media (max-width: 415px) {
+  .gallery {
+    height: 92vh;
+  }
+}
+
 .gallery_center {
   width: 20rem;
   height: 20rem;
@@ -1192,6 +1198,12 @@ h2 {
 @media (max-width: 800px) {
   .gallery_slider {
     height: 10vh;
+  }
+}
+
+@media (max-width: 415px) {
+  .gallery_slider {
+    height: 30vh;
   }
 }
 
@@ -1253,9 +1265,21 @@ h2 {
   outline: none;
 }
 
+@media (max-width: 415px) {
+  .gallery img {
+    padding-right: none;
+  }
+}
+
 @media (max-width: 1440px) {
   .cetiri {
     height: 35vh;
+  }
+}
+
+@media (max-width: 415px) {
+  .cetiri {
+    height: 30vh;
   }
 }
 
@@ -1266,6 +1290,12 @@ h2 {
 @media (max-width: 1440px) {
   .deset {
     height: 35vh;
+  }
+}
+
+@media (max-width: 415px) {
+  .deset {
+    height: 30vh;
   }
 }
 
