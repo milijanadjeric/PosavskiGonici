@@ -4,6 +4,14 @@
   display: flex;
   flex-direction: column;
 
+  @include breakpoint(desktop) {
+    height: 92vh;
+  }
+
+  @include breakpoint(tablet) {
+    height: 95vh;
+  }
+
   &_center {
     width: 20rem;
     height: 20rem;
@@ -11,6 +19,16 @@
     text-align: center;
     padding-top: 2rem;
     margin-bottom: 1rem;
+
+    @include breakpoint(desktop) {
+      padding-top: 4rem;
+      margin-bottom: 7rem;
+    }
+
+    @include breakpoint (ipad--Landscape) {
+      padding-top: 6rem;
+      margin-bottom: 14rem;
+    }
   }
 
   &_slider {
@@ -20,11 +38,31 @@
     margin: 0 auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+       @include breakpoint(desktop) {
+         height: 35vh;
+       }
+
+       @include breakpoint(ipad--Landscape) {
+         height: 30vh;
+       } 
+
+       @include breakpoint (tablet) {
+         height: 10vh;
+       }
   }
 
   &_link {
     align-self: flex-end;
     margin-top: 3.1rem;
+
+    @include breakpoint(desktop) {
+      margin-top: 10rem;
+    }
+
+    @include breakpoint(ipad--Landscape) {
+      margin-top: 12rem;
+    }
   
 
     a {
@@ -65,6 +103,16 @@
   }
 }
 
+.cetiri {
+  @include breakpoint(desktop) {
+    height: 35vh;
+  }
+}
+
 .deset {
   height: 40vh;
+
+  @include breakpoint(desktop) {
+    height: 35vh;
+  }
 }

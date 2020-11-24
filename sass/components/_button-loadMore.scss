@@ -1,4 +1,5 @@
-.loadMore {
+button#loadMore,
+button#loadLess.loadMore {
   display: none;
 
   @include breakpoint(iPhone) {
@@ -25,3 +26,6 @@
     
   }
 }
+
+
+ 
