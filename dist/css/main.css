@@ -451,6 +451,8 @@ nav {
           align-items: center;
   background-color: white;
   height: 10vh;
+  -webkit-box-shadow: 0 5px 5px #efefef;
+          box-shadow: 0 5px 5px #efefef;
 }
 
 @media (max-width: 1440px) {
