@@ -93,6 +93,10 @@
     height: 150px;
     margin: 20px 0;
   }
+
+  @include breakpoint (mobile--Smallest) {
+    width: 280px;
+  }
 }
 
 .footer-text {

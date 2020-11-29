@@ -27,8 +27,8 @@
     text-align: center;
 
     @include breakpoint(iPhone) {
-      margin: 3rem 0;
-      width: 140px;
+      margin: 3rem 0 6rem 0;
+      
     }
   }
 

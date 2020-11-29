@@ -745,6 +745,12 @@ nav li a {
   }
 }
 
+@media (max-width: 320px) {
+  #gmap_canvas {
+    width: 280px;
+  }
+}
+
 .footer-text {
   height: 8vh;
   background-color: #4cabcdce;
@@ -1574,8 +1580,7 @@ iframe {
 
 @media (max-width: 415px) {
   .kontakt2_center {
-    margin: 3rem 0;
-    width: 140px;
+    margin: 3rem 0 6rem 0;
   }
 }
 
