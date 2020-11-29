@@ -1433,7 +1433,7 @@ iframe {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  background-color: #e6e6e696;
+  background-color: #f8f7f7c0;
   border-right: 2rem solid rgba(107, 0, 179, 0.753);
 }
 
@@ -1555,6 +1555,7 @@ iframe {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    border-right: none;
   }
 }
 
@@ -1569,6 +1570,12 @@ iframe {
   width: 20rem;
   height: 20rem;
   text-align: center;
+}
+
+@media (max-width: 415px) {
+  .kontakt2_center {
+    margin: 3rem 0 6rem 0;
+  }
 }
 
 .kontakt2_details {
@@ -1635,6 +1642,14 @@ iframe {
 @media (max-width: 800px) {
   .kontakt2-form {
     margin: 12.4rem 0;
+  }
+}
+
+@media (max-width: 415px) {
+  .kontakt2-form {
+    width: 45rem;
+    margin: 0 0 8rem 0;
+    padding: 40px 20px 60px;
   }
 }
 

@@ -16,6 +16,7 @@
 
   @include breakpoint(iPhone) {
     flex-direction: column;
+    border-right: none;
   }
 
   &_center {
@@ -24,7 +25,10 @@
     width: 20rem;
     height: 20rem;
     text-align: center;
-    ;
+
+    @include breakpoint(iPhone) {
+      margin: 3rem 0 6rem 0;
+    }
   }
 
   &_details {
@@ -85,9 +89,12 @@
     margin: 12.4rem 0;
   }
 
-  
-  
-
+  @include breakpoint(iPhone) {
+    width: 45rem;
+    margin: 0 0 8rem 0;
+    padding: 40px 20px 60px;
+    
+  }
 }
 
 input[type="text"],
@@ -107,17 +114,15 @@ textarea {
   font-family: $fontMont;
   font-size: 1.3rem;
   font-weight: 400;
-  
-  
 }
 input[type="text"] {
   width: 350px;
   margin-left: 25px;
 
   @include breakpoint(ipad--Landscape) {
-    width: 250px;
-    
+    width: 250px; 
   }
+  
 }
 
 .kontakt2-form-email {
