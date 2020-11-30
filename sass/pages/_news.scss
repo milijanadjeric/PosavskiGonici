@@ -80,6 +80,10 @@
           line-height: 2.5rem;
           color: grey;
 
+          @include breakpoint(iPhone) {
+            font-size: 11px;
+          }
+
           
         }
       }
