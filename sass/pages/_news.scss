@@ -3,17 +3,22 @@
     flex-direction: column;
     background-color:  #f8f7f7c0;
     border-right: 2rem solid rgba(107, 0, 179, 0.753);
+
+    @include breakpoint(iPhone) {
+      border-right: none;
+    }
   
     &_center {
       width: 20rem;
       height: 17rem;
       margin: 0 auto;
       text-align: center;
-      
       padding-top: 2rem;
       margin-bottom: 4rem;
-      
 
+      @include breakpoint(iPhone) {
+        margin-bottom: 8rem;
+      }
       
     }
   
@@ -21,6 +26,11 @@
       display: flex;
       justify-content: space-evenly;
       margin-top: 3rem;
+
+      @include breakpoint(iPhone) {
+        flex-direction: column;
+        margin: 0 auto;
+      }
   
       &_left {
         width: 50rem;
@@ -70,9 +80,7 @@
           line-height: 2.5rem;
           color: grey;
 
-          @include breakpoint(ipad--Landscape) {
-            font-size: 11px;
-          }
+          
         }
       }
     }
