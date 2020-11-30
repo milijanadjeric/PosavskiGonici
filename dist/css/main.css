@@ -1745,7 +1745,7 @@ input[type="text"] {
 
 @media (max-width: 415px) {
   input[type="text"] {
-    width: 120px;
+    width: 200px;
   }
 }
 
