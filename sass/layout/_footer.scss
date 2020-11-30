@@ -110,6 +110,10 @@
   font-weight: 400;
   color:white;
 
+  @include breakpoint (ipad--Landscape) {
+    height: 6vh;
+  }
+
   
   
 }

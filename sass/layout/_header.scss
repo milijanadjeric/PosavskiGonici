@@ -9,6 +9,10 @@ nav{
   @include breakpoint(desktop) {
     height: 8vh;
   }
+  @include breakpoint (ipad--Landscape) {
+    height: 6vh;
+  }
+
   @include breakpoint(tablet) {
     height: 5vh;
   }

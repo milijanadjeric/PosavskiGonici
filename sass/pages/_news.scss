@@ -9,9 +9,12 @@
       height: 17rem;
       margin: 0 auto;
       text-align: center;
-      padding-top: 1rem;
+      
+      padding-top: 2rem;
       margin-bottom: 4rem;
-      background-color: rgba(107, 0, 179, 0.753);
+      
+
+      
     }
   
     &_box {
@@ -50,6 +53,8 @@
         margin-top: 2rem;
         margin-bottom: 7rem;
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+
+        
   
         &-title {
           font-family: $fontMont;
@@ -64,6 +69,10 @@
           font-weight: 500;
           line-height: 2.5rem;
           color: grey;
+
+          @include breakpoint(ipad--Landscape) {
+            font-size: 11px;
+          }
         }
       }
     }

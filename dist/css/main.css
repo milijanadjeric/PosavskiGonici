@@ -461,6 +461,12 @@ nav {
   }
 }
 
+@media (max-width: 1024px) {
+  nav {
+    height: 6vh;
+  }
+}
+
 @media (max-width: 800px) {
   nav {
     height: 5vh;
@@ -767,6 +773,12 @@ nav li a {
   font-size: 1.5rem;
   font-weight: 400;
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .footer-text {
+    height: 6vh;
+  }
 }
 
 .link-hidden {
@@ -1181,7 +1193,6 @@ h2 {
 
 @media (max-width: 1440px) {
   .gallery_center {
-    padding-top: 4rem;
     margin-bottom: 7rem;
   }
 }
@@ -1448,9 +1459,8 @@ iframe {
   height: 17rem;
   margin: 0 auto;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: 2rem;
   margin-bottom: 4rem;
-  background-color: rgba(107, 0, 179, 0.753);
 }
 
 .news_box {
@@ -1526,6 +1536,12 @@ iframe {
   font-weight: 500;
   line-height: 2.5rem;
   color: grey;
+}
+
+@media (max-width: 1024px) {
+  .news_content_text-text {
+    font-size: 11px;
+  }
 }
 
 .kontakt2 {
