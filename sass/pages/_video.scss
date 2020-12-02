@@ -13,6 +13,8 @@
     height: 95vh;
   }
 
+  
+
 
   &_center {
     width: 20rem;
@@ -42,6 +44,12 @@
       height: 55%;
       flex-direction: column;
     }
+
+    @include breakpoint (iPhone) {
+      width: 88%;
+      padding-top: 2rem;
+      
+    }
   }
 
   &_link {
@@ -57,6 +65,10 @@
     }
     @include breakpoint(ipad--Landscape) {
       margin-top: 16.8rem;
+    }
+    @include breakpoint(iPhone) {
+      margin-top: 11rem;
+      
     }
   }
 
@@ -101,4 +113,12 @@ iframe {
   border: none;
   border-radius: 1rem;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  
+
+  &:not(:last-child) {
+    @include breakpoint(iPhone) {
+      margin-bottom: 9rem;
+    }
+  }
 }

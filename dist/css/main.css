@@ -1434,6 +1434,13 @@ h2 {
   }
 }
 
+@media (max-width: 415px) {
+  .video_gallery {
+    width: 88%;
+    padding-top: 2rem;
+  }
+}
+
 .video_link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1459,6 +1466,12 @@ h2 {
 @media (max-width: 1024px) {
   .video_link {
     margin-top: 16.8rem;
+  }
+}
+
+@media (max-width: 415px) {
+  .video_link {
+    margin-top: 11rem;
   }
 }
 
@@ -1507,6 +1520,12 @@ iframe {
   border-radius: 1rem;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (max-width: 415px) {
+  iframe:not(:last-child) {
+    margin-bottom: 9rem;
+  }
 }
 
 .news {
