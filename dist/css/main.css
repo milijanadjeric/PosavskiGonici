@@ -564,7 +564,7 @@ nav li a {
 .closebtn_img {
   position: absolute;
   width: 5rem;
-  right: 6rem;
+  right: 4rem;
   top: 2rem;
 }
 
@@ -1857,6 +1857,12 @@ input[type="text"] {
 @media (max-width: 415px) {
   input[type="text"] {
     width: 200px;
+  }
+}
+
+@media (max-width: 320px) {
+  input[type="text"] {
+    width: 170px;
   }
 }
 

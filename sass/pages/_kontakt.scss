@@ -136,6 +136,9 @@ input[type="text"] {
   @include breakpoint (iPhone) {
     width: 200px;
   }
+  @include breakpoint (mobile--Smallest) {
+    width: 170px;
+  }
   
 }
 

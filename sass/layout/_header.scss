@@ -20,8 +20,8 @@ nav{
     height: 8vh;
     
   }
-  
 
+  
 
   ul {
     display: flex;
@@ -98,7 +98,7 @@ nav{
   &_img {
     position: absolute;
     width: 5rem;
-    right: 6rem;
+    right: 4rem;
     top: 2rem;
   }
 }
@@ -151,12 +151,7 @@ nav{
   
 }
 
-// .overlay-content img {
- 
 
-//   position: absolute;
-//   bottom: 0;
-// }
 .overlay a {
   font-family: $fontMont;
   text-transform: uppercase;
