@@ -579,6 +579,12 @@ nav li a {
   overflow-x: hidden;
 }
 
+.overlay_logo {
+  width: 53.75px;
+  margin-left: 22px;
+  margin-top: 12px;
+}
+
 .overlay-content {
   position: relative;
   top: 15%;
