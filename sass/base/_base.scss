@@ -36,6 +36,9 @@ html {
   @include breakpoint(desktop) {
     font-size: 58%;
   }
+  @include breakpoint(desktop--Smaller) {
+    font-size: 56%;
+  }
 
   @include breakpoint(desktop--Small) {
     font-size: 52.5%;

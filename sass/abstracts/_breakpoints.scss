@@ -23,6 +23,9 @@
     @if $point == desktop {//max-width = 1440px
         @media (max-width: $desktop)                        { @content; }
     }
+    @if $point == desktop--Smaller {//max-width = 1366px
+        @media (max-width: $desktop--Smaller)                 { @content; }
+    }
     @if $point == desktop--Small {//max-width = 1280px
         @media (max-width: $desktop--Small)                 { @content; }
     }
@@ -60,7 +63,8 @@ $desktop--Big     : 1600px;
 $desktop--Large   : 1536px;    //   1700 / 16px = 106.25rem
 
 
-$desktop          : 1440px;   
+$desktop          : 1440px; 
+$desktop--Smaller : 1367px;  
 $desktop--Small   : 1280px;    //   1200 / 16px = 75rem
 $ipad--Landscape  : 1024px;
 $tablet           : 800px; 
