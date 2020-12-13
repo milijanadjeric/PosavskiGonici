@@ -103,10 +103,15 @@
     background-color: $homeButtonsColor;
     border-top: 0.1rem solid $homeButtonsBorder;
     border-bottom: 0.1rem solid $homeButtonsBorder;
+    border-left: 0.1rem solid $homeButtonsBorder;
     border-top-left-radius: 4rem;
     border-bottom-left-radius: 4rem;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      @include breakpoint (iPhone) {
+        width: 18rem;
+      }
 
     &-img {
       width: 5rem;

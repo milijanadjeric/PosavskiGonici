@@ -78,9 +78,9 @@
     right: 0;
     bottom: 0;
 
-    @include breakpoint(iPhone) {
-      display: none;
-    }
+    // @include breakpoint(iPhone) {
+    //   display: none;
+    // }
 
     &_facebook {
       display: flex;
