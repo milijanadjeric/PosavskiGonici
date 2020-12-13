@@ -19,6 +19,9 @@
   @include breakpoint (iPhone) {
     height: 92vh;
   }
+  @include breakpoint(desktop--Big) {
+    height: 92vh;
+  }
 
   
 
@@ -85,6 +88,9 @@
     @include breakpoint(mobile--Smallest) {
       margin-top: 8rem;
     }
+    @include breakpoint(desktop--Big) {
+      margin-top: 10rem;
+    }
   
 
     a {
@@ -147,6 +153,10 @@
 
   @include breakpoint (iPhone) {
     height: 30vh;
+  }
+
+  @include breakpoint(desktop--Large) {
+    height: 40vh;
   }
 }
 

@@ -65,6 +65,12 @@ html {
   }
 }
 
+@media (min-width: 1920px) {
+  html {
+    font-size: 72.5%;
+  }
+}
+
 @-webkit-keyframes moveInTop {
   0% {
     opacity: 0;
@@ -516,6 +522,12 @@ nav {
   }
 }
 
+@media (min-width: 1920px) {
+  nav {
+    height: 8vh;
+  }
+}
+
 nav ul {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -866,6 +878,12 @@ nav li a {
   }
 }
 
+@media (min-width: 1920px) {
+  .main {
+    height: 92vh;
+  }
+}
+
 .main_title {
   font-family: "Montserrat", sans-serif;
   text-transform: uppercase;
@@ -919,6 +937,12 @@ nav li a {
 @media (max-width: 415px) {
   .main_image {
     display: none;
+  }
+}
+
+@media (min-width: 1920px) {
+  .main_image {
+    height: 92vh;
   }
 }
 
@@ -1051,6 +1075,12 @@ h2 {
   }
 }
 
+@media (min-width: 1920px) {
+  .about-us {
+    height: 92vh;
+  }
+}
+
 .about-us_left {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1141,6 +1171,12 @@ h2 {
   }
 }
 
+@media (min-width: 1920px) {
+  .about-race {
+    height: 92vh;
+  }
+}
+
 .about-race_right {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1215,6 +1251,12 @@ h2 {
 }
 
 @media (max-width: 415px) {
+  .gallery {
+    height: 92vh;
+  }
+}
+
+@media (min-width: 1920px) {
   .gallery {
     height: 92vh;
   }
@@ -1313,6 +1355,12 @@ h2 {
   }
 }
 
+@media (min-width: 1920px) {
+  .gallery_link {
+    margin-top: 10rem;
+  }
+}
+
 .gallery_link a {
   text-decoration: none;
 }
@@ -1384,6 +1432,12 @@ h2 {
   }
 }
 
+@media (min-width: 1600px) {
+  .cetiri {
+    height: 40vh;
+  }
+}
+
 .deset {
   height: 40vh;
 }
@@ -1433,6 +1487,12 @@ h2 {
   .video {
     height: 100%;
     padding-bottom: 10rem;
+  }
+}
+
+@media (min-width: 1920px) {
+  .video {
+    height: 92vh;
   }
 }
 
@@ -1539,6 +1599,12 @@ h2 {
   }
 }
 
+@media (min-width: 1920px) {
+  .video_link {
+    margin-top: 16.6rem;
+  }
+}
+
 .video_link a {
   text-decoration: none;
 }
@@ -1591,6 +1657,13 @@ iframe {
   border-radius: 1rem;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+@media (min-width: 1920px) {
+  iframe {
+    width: 420px;
+    height: 315px;
+  }
 }
 
 @media (max-width: 415px) {

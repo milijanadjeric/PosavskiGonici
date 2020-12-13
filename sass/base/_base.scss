@@ -53,6 +53,9 @@ html {
     
 
   }
+  @include breakpoint(desktop--Big) {
+    font-size: 72.5%;
+  }
 
   
 }

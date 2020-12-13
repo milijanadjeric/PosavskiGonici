@@ -21,6 +21,10 @@
     border-left: 1rem solid $primaryColor;
   }
 
+  @include breakpoint(desktop--Big) {
+    height: 92vh;
+  }
+
   &_title {
     font-family: $fontMont;
     text-transform: uppercase;
@@ -63,8 +67,10 @@
     }
 
     @include breakpoint(iPhone) {
-    
       display: none;
+    }
+    @include breakpoint(desktop--Big) {
+      height: 92vh;
     }
 
     

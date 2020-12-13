@@ -26,6 +26,10 @@ h2 {
     border-right: none;
   }
 
+  @include breakpoint(desktop--Big) {
+    height: 92vh;
+  }
+
   &_left {
     display: flex;
     flex-direction: column;

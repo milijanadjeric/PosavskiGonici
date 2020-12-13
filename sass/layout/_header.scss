@@ -19,6 +19,9 @@ nav{
   @include breakpoint(iPhone) {
     height: 8vh;
   }
+  @include breakpoint(desktop--Big) {
+    height: 8vh;
+  }
 
 
   
