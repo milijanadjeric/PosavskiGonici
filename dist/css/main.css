@@ -811,14 +811,13 @@ nav li a {
 
 @media (max-width: 415px) {
   .main {
+    background-color: rgba(0, 0, 0, 0.85);
     border-left: 1.5rem solid #6b00b3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
+    padding-top: 30%;
   }
 }
 

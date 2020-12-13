@@ -12,9 +12,10 @@
     height: 92vh;
   }
   @include breakpoint (iPhone) {
+    background-color: rgba(0, 0, 0, 0.85);
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
-    justify-content: center;
+    padding-top: 30%;
   }
   @include breakpoint (mobile) {
     border-left: 1rem solid $primaryColor;
@@ -77,10 +78,6 @@
     position: absolute;
     right: 0;
     bottom: 0;
-
-    // @include breakpoint(iPhone) {
-    //   display: none;
-    // }
 
     &_facebook {
       display: flex;
