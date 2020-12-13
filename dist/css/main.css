@@ -137,6 +137,37 @@ html {
   }
 }
 
+@media (max-width: 415px) {
+  @-webkit-keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(5rem);
+              transform: translateX(5rem);
+    }
+  }
+  @keyframes moveInLeft {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateX(5rem);
+              transform: translateX(5rem);
+    }
+  }
+  @-webkit-keyframes moveInTop {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20rem);
+              transform: translateY(-20rem);
+    }
+  }
+  @keyframes moveInTop {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(-20rem);
+              transform: translateY(-20rem);
+    }
+  }
+}
+
 /* Slider */
 .slick-slider {
   position: relative;
@@ -577,6 +608,8 @@ nav li a {
   left: 0;
   background-color: white;
   overflow-x: hidden;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 .overlay-content {
@@ -621,9 +654,9 @@ nav li a {
   text-decoration: none;
   font-size: 3.6rem;
   color: #6b00b3;
+  line-height: 10rem;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  line-height: 10rem;
 }
 
 .kontakt {
