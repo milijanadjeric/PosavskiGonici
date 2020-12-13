@@ -18,6 +18,9 @@
     flex-direction: column;
     border-right: none;
   }
+  @include breakpoint(desktop--Big) {
+    height: 92vh;
+  }
 
   &_center {
     display: flex;

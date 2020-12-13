@@ -1833,6 +1833,12 @@ iframe {
   }
 }
 
+@media (min-width: 1920px) {
+  .kontakt2 {
+    height: 92vh;
+  }
+}
+
 .kontakt2_center {
   display: -webkit-box;
   display: -ms-flexbox;
