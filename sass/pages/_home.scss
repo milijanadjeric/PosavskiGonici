@@ -8,6 +8,9 @@
   @include breakpoint(desktop) {
     height: 92vh;
   }
+  @include breakpoint(desktop--Smaller) {
+    height: 90vh;
+  }
   @include breakpoint(desktop--Small) {
     height: 92vh;
   }
@@ -61,6 +64,9 @@
     @include breakpoint(desktop) {
       height: 92vh;
     }
+    @include breakpoint(desktop--Smaller) {
+      height: 90vh;
+    }
 
     @include breakpoint(desktop--Small) {
       height: 92vh;
@@ -70,6 +76,7 @@
       display: none;
     }
     @include breakpoint(desktop--Big) {
+      width: 105rem;
       height: 92vh;
     }
 

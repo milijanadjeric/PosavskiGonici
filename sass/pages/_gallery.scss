@@ -7,6 +7,12 @@
   @include breakpoint(desktop) {
     height: 92vh;
   }
+  @include breakpoint(desktop--Smaller) {
+    height: 90vh;
+  }
+  @include breakpoint(desktop--Small) {
+    height: 92vh;
+  }
 
   @include breakpoint (ipad--Landscape) {
     height: 94vh;
@@ -79,6 +85,12 @@
     margin-top: 3.1rem;
 
     @include breakpoint(desktop) {
+      margin-top: 10rem;
+    }
+    @include breakpoint(desktop--Smaller) {
+      margin-top: 7rem;
+    }
+    @include breakpoint(desktop--Small) {
       margin-top: 10rem;
     }
 
