@@ -20,7 +20,7 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.9)
       ),
-      url("/img/4Copy.jpg");
+      url("../../img/4Copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,7 +63,7 @@
       display: block;
       transform: rotate(270deg);
       position: absolute;
-      left: -240px;
+      left: -250px;
       top: 325px;
       font-family: $fontMont;
       text-transform: uppercase;
