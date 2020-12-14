@@ -24,7 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 92vh;
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
     padding-top: 30%;
@@ -75,6 +75,11 @@
 
       @include breakpoint(mobile) {
         left: -250px;
+      }
+      @include breakpoint(mobile--Smallest) {
+        top: 285px;
+        left: -225px;
+        
       }
     }
   }
@@ -138,6 +143,7 @@
       box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
+
       &:hover {
         cursor: pointer;
       }
@@ -167,8 +173,10 @@
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
         @include breakpoint(iPhone) {
-          margin-bottom: -5rem;
+          margin-bottom: 3rem;
         }
+
+        
 
       &:hover {
         cursor: pointer;

@@ -885,7 +885,7 @@ nav li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 92vh;
     border-left: 1.5rem solid #6b00b3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -955,6 +955,13 @@ nav li a {
 @media (max-width: 415px) and (max-width: 360px) {
   .main_title-mobile {
     left: -250px;
+  }
+}
+
+@media (max-width: 415px) and (max-width: 320px) {
+  .main_title-mobile {
+    top: 285px;
+    left: -225px;
   }
 }
 
@@ -1071,7 +1078,7 @@ nav li a {
 
 @media (max-width: 415px) {
   .main_link_contact {
-    margin-bottom: -5rem;
+    margin-bottom: 3rem;
   }
 }
 
