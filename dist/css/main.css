@@ -885,6 +885,7 @@ nav li a {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     border-left: 1.5rem solid #6b00b3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -944,7 +945,7 @@ nav li a {
     top: 325px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    font-weight: 700;
+    font-weight: 600;
     color: #85f8e1;
     font-size: 3.5rem;
     letter-spacing: 0.3rem;
@@ -1070,7 +1071,7 @@ nav li a {
 
 @media (max-width: 415px) {
   .main_link_contact {
-    margin-bottom: 0;
+    margin-bottom: -5rem;
   }
 }
 

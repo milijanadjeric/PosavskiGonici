@@ -24,6 +24,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    height: 100vh;
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
     padding-top: 30%;
@@ -67,7 +68,7 @@
       top: 325px;
       font-family: $fontMont;
       text-transform: uppercase;
-      font-weight: 700;
+      font-weight: 600;
       color: $mainTitleColor;
       font-size: 3.5rem;
       letter-spacing: 0.3rem;
@@ -166,7 +167,7 @@
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
         @include breakpoint(iPhone) {
-          margin-bottom: 0;
+          margin-bottom: -5rem;
         }
 
       &:hover {
