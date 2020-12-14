@@ -1070,7 +1070,7 @@ nav li a {
 
 @media (max-width: 415px) {
   .main_link_contact {
-    margin-bottom: 2rem;
+    margin-bottom: 0;
   }
 }
 
