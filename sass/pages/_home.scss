@@ -17,7 +17,7 @@
   @include breakpoint(iPhone) {
     background-image: linear-gradient(
         to left bottom,
-        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.3),
         rgba(0, 0, 0, 0.9)
       ),
       url("../../img/4Copy.jpg");
@@ -63,7 +63,7 @@
       display: block;
       transform: rotate(270deg);
       position: absolute;
-      left: -250px;
+      left: -245px;
       top: 325px;
       font-family: $fontMont;
       text-transform: uppercase;
@@ -164,6 +164,10 @@
       border-bottom-left-radius: 3rem;
       box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
+
+        @include breakpoint(iPhone) {
+          margin-bottom: 2rem;
+        }
 
       &:hover {
         cursor: pointer;
