@@ -14,13 +14,21 @@
   @include breakpoint(desktop--Small) {
     height: 92vh;
   }
-  @include breakpoint (iPhone) {
-    background-color: rgba(0, 0, 0, 0.85);
+  @include breakpoint(iPhone) {
+    background-image: linear-gradient(
+        to left bottom,
+        rgba(0, 0, 0, 0.4),
+        rgba(0, 0, 0, 0.9)
+      ),
+      url("/img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-left: 1.5rem solid $primaryColor;
     flex-direction: column;
     padding-top: 30%;
   }
-  @include breakpoint (mobile) {
+  @include breakpoint(mobile) {
     border-left: 1rem solid $primaryColor;
   }
 
@@ -32,7 +40,7 @@
     font-family: $fontMont;
     text-transform: uppercase;
     font-weight: 400;
-    color:$mainTitleColor;
+    color: $mainTitleColor;
     font-size: 6.5rem;
     line-height: 10rem;
     letter-spacing: 0.1rem;
@@ -44,9 +52,29 @@
     animation-duration: 2s;
 
     @include breakpoint(iPhone) {
-      padding-left: 0;
-      text-align: justify;
-      
+      display: none;
+    }
+  }
+
+  &_title-mobile {
+    display: none;
+
+    @include breakpoint(iPhone) {
+      display: block;
+      transform: rotate(270deg);
+      position: absolute;
+      left: -260px;
+      top: 400px;
+      font-family: $fontMont;
+      text-transform: uppercase;
+      font-weight: 500;
+      color: $mainTitleColor;
+      font-size: 3.5rem;
+      letter-spacing: 0.3rem;
+
+      @include breakpoint(mobile) {
+        left: -270px;
+      }
     }
   }
 
@@ -79,8 +107,6 @@
       width: 105rem;
       height: 92vh;
     }
-
-    
   }
 
   &_link {
@@ -108,8 +134,8 @@
       border-left: 0.1rem solid $homeButtonsBorder;
       border-top-left-radius: 3rem;
       border-bottom-left-radius: 3rem;
-      box-shadow: 0 .8rem 2rem 0 rgba(0, 0, 0, 0.4),
-        0 .6rem 2rem 0 rgba(0, 0, 0, 0.4);
+      box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
+        0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
       &:hover {
         cursor: pointer;
@@ -136,10 +162,8 @@
       border-left: 0.1rem solid $homeButtonsBorder;
       border-top-left-radius: 3rem;
       border-bottom-left-radius: 3rem;
-      box-shadow: 0 .8rem 2rem 0 rgba(0, 0, 0, 0.4),
-        0 .6rem 2rem 0 rgba(0, 0, 0, 0.4);
-
-        
+      box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
+        0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
       &:hover {
         cursor: pointer;

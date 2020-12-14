@@ -880,7 +880,11 @@ nav li a {
 
 @media (max-width: 415px) {
   .main {
-    background-color: rgba(0, 0, 0, 0.85);
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.9))), url("/img/4.jpg");
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.9)), url("/img/4.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border-left: 1.5rem solid #6b00b3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -922,8 +926,34 @@ nav li a {
 
 @media (max-width: 415px) {
   .main_title {
-    padding-left: 0;
-    text-align: justify;
+    display: none;
+  }
+}
+
+.main_title-mobile {
+  display: none;
+}
+
+@media (max-width: 415px) {
+  .main_title-mobile {
+    display: block;
+    -webkit-transform: rotate(270deg);
+            transform: rotate(270deg);
+    position: absolute;
+    left: -260px;
+    top: 400px;
+    font-family: "Montserrat", sans-serif;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #85f8e1;
+    font-size: 3.5rem;
+    letter-spacing: 0.3rem;
+  }
+}
+
+@media (max-width: 415px) and (max-width: 360px) {
+  .main_title-mobile {
+    left: -270px;
   }
 }
 
