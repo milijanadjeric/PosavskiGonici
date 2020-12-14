@@ -65,7 +65,7 @@
       transform: rotate(270deg);
       position: absolute;
       left: -245px;
-      top: 325px;
+      top: 320px;
       font-family: $fontMont;
       text-transform: uppercase;
       font-weight: 600;
@@ -77,8 +77,9 @@
         left: -250px;
       }
       @include breakpoint(mobile--Smallest) {
-        top: 285px;
+        top: 290px;
         left: -225px;
+        
         
       }
     }
@@ -173,7 +174,7 @@
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
         @include breakpoint(iPhone) {
-          margin-bottom: 3rem;
+          margin-bottom: 0;
         }
 
         
