@@ -20,7 +20,7 @@
         rgba(0, 0, 0, 0.4),
         rgba(0, 0, 0, 0.9)
       ),
-      url("/img/4.jpg");
+      url("/img/4Copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -63,17 +63,17 @@
       display: block;
       transform: rotate(270deg);
       position: absolute;
-      left: -260px;
-      top: 400px;
+      left: -240px;
+      top: 325px;
       font-family: $fontMont;
       text-transform: uppercase;
-      font-weight: 500;
+      font-weight: 700;
       color: $mainTitleColor;
       font-size: 3.5rem;
       letter-spacing: 0.3rem;
 
       @include breakpoint(mobile) {
-        left: -270px;
+        left: -250px;
       }
     }
   }
