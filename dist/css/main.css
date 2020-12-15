@@ -661,13 +661,13 @@ nav li a {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
-  border-left: 1.5rem solid #6b00b3;
+  border-left: 0.7rem solid #6b00b3;
   padding-left: 3rem;
 }
 
 @media (max-width: 360px) {
   .overlay-content_links {
-    border-left: 1rem solid #6b00b3;
+    border-left: 0.5rem solid #6b00b3;
     padding-left: 2rem;
   }
 }
@@ -897,7 +897,7 @@ nav li a {
 
 @media (max-width: 360px) {
   .main {
-    border-left: 0.7rem solid #6b00b3;
+    border-left: 0.5rem solid #6b00b3;
   }
 }
 

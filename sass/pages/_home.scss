@@ -30,7 +30,7 @@
     padding-top: 30%;
   }
   @include breakpoint(mobile) {
-    border-left: .7rem solid $primaryColor;
+    border-left: .5rem solid $primaryColor;
   }
 
   @include breakpoint(desktop--Big) {
