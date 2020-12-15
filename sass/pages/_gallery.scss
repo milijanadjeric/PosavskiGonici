@@ -129,7 +129,7 @@
     outline: none;
     border-top: 0.1rem solid $homeButtonsBorder;
     border-bottom: 0.1rem solid $homeButtonsBorder;
-    border-left: 0.1rem solid $homeButtonsBorder;
+    
 
     @include breakpoint (iPhone) {
       width: 18rem;

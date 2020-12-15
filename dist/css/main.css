@@ -1024,7 +1024,6 @@ nav li a {
   background-color: #7a00cc;
   border-top: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
-  border-left: 0.1rem solid #99ffeb;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
   -webkit-box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
@@ -1057,7 +1056,6 @@ nav li a {
   background-color: #7a00cc;
   border-top: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
-  border-left: 0.1rem solid #99ffeb;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
   -webkit-box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4), 0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
@@ -1493,7 +1491,6 @@ h2 {
   outline: none;
   border-top: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
-  border-left: 0.1rem solid #99ffeb;
 }
 
 @media (max-width: 415px) {
@@ -1749,7 +1746,6 @@ h2 {
   background-color: #7a00cc;
   border-top: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
-  border-left: 0.1rem solid #99ffeb;
   border-top-left-radius: 4rem;
   border-bottom-left-radius: 4rem;
   -webkit-box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
