@@ -887,18 +887,12 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: 0.7rem solid #6b00b3;
+    border-left: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
     padding-top: 30%;
-  }
-}
-
-@media (max-width: 360px) {
-  .main {
-    border-left: 0.5rem solid #6b00b3;
   }
 }
 

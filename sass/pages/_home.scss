@@ -25,14 +25,11 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: .7rem solid $primaryColor;
+    border-left: none;
     flex-direction: column;
     padding-top: 30%;
   }
-  @include breakpoint(mobile) {
-    border-left: .5rem solid $primaryColor;
-  }
-
+  
   @include breakpoint(desktop--Big) {
     height: 92vh;
   }
