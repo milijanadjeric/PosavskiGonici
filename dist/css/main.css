@@ -531,6 +531,7 @@ nav {
 @media (max-width: 415px) {
   nav {
     height: 8vh;
+    border-top: 0.1rem solid #6b00b3;
   }
 }
 
