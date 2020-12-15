@@ -881,8 +881,8 @@ nav li a {
 
 @media (max-width: 415px) {
   .main {
-    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.2)), to(black)), url("../../img/4Copy.jpg");
-    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.2), black), url("../../img/4Copy.jpg");
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.1)), to(black)), url("../../img/4Copy.jpg");
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), black), url("../../img/4Copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
