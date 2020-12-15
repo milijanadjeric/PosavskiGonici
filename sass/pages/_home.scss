@@ -25,12 +25,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: 1.5rem solid $primaryColor;
+    border-left: .7rem solid $primaryColor;
     flex-direction: column;
     padding-top: 30%;
   }
   @include breakpoint(mobile) {
-    border-left: 1rem solid $primaryColor;
+    border-left: .7rem solid $primaryColor;
   }
 
   @include breakpoint(desktop--Big) {
@@ -68,17 +68,15 @@
       top: 320px;
       font-family: $fontMont;
       text-transform: uppercase;
-      font-weight: 600;
+      font-weight: 500;
       color: $mainTitleColor;
       font-size: 3.5rem;
       letter-spacing: 0.3rem;
 
-      @include breakpoint(mobile) {
-        left: -250px;
-      }
+      
       @include breakpoint(mobile--Smallest) {
         top: 290px;
-        left: -225px;
+        left: -220px;
         
         
       }

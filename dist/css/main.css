@@ -886,7 +886,7 @@ nav li a {
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: 1.5rem solid #6b00b3;
+    border-left: 0.7rem solid #6b00b3;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -897,7 +897,7 @@ nav li a {
 
 @media (max-width: 360px) {
   .main {
-    border-left: 1rem solid #6b00b3;
+    border-left: 0.7rem solid #6b00b3;
   }
 }
 
@@ -945,23 +945,17 @@ nav li a {
     top: 320px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
-    font-weight: 600;
+    font-weight: 500;
     color: #85f8e1;
     font-size: 3.5rem;
     letter-spacing: 0.3rem;
   }
 }
 
-@media (max-width: 415px) and (max-width: 360px) {
-  .main_title-mobile {
-    left: -250px;
-  }
-}
-
 @media (max-width: 415px) and (max-width: 320px) {
   .main_title-mobile {
     top: 290px;
-    left: -225px;
+    left: -220px;
   }
 }
 
