@@ -3,7 +3,7 @@
   display: flex;
   justify-content: space-between;
   height: 90vh;
-  border-left: 2rem solid $primaryColor;
+  
 
   @include breakpoint(desktop) {
     height: 92vh;
@@ -18,14 +18,13 @@
     background-image: linear-gradient(
         to left bottom,
         rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.9)
+        rgb(0, 0, 0)
       ),
       url("../../img/4Copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: none;
     flex-direction: column;
     padding-top: 30%;
   }
@@ -61,7 +60,7 @@
       display: block;
       transform: rotate(270deg);
       position: absolute;
-      left: -245px;
+      left: -247px;
       top: 320px;
       font-family: $fontMont;
       text-transform: uppercase;
@@ -73,7 +72,7 @@
       
       @include breakpoint(mobile--Smallest) {
         top: 290px;
-        left: -220px;
+        left: -225px;
         
         
       }

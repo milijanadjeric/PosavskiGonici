@@ -858,7 +858,6 @@ nav li a {
       -ms-flex-pack: justify;
           justify-content: space-between;
   height: 90vh;
-  border-left: 2rem solid #6b00b3;
 }
 
 @media (max-width: 1440px) {
@@ -881,13 +880,12 @@ nav li a {
 
 @media (max-width: 415px) {
   .main {
-    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.3)), to(rgba(0, 0, 0, 0.9))), url("../../img/4Copy.jpg");
-    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.9)), url("../../img/4Copy.jpg");
+    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.3)), to(black)), url("../../img/4Copy.jpg");
+    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.3), black), url("../../img/4Copy.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     height: 92vh;
-    border-left: none;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -936,7 +934,7 @@ nav li a {
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
     position: absolute;
-    left: -245px;
+    left: -247px;
     top: 320px;
     font-family: "Montserrat", sans-serif;
     text-transform: uppercase;
@@ -950,7 +948,7 @@ nav li a {
 @media (max-width: 415px) and (max-width: 320px) {
   .main_title-mobile {
     top: 290px;
-    left: -220px;
+    left: -225px;
   }
 }
 
