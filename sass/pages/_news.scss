@@ -71,14 +71,14 @@
           font-size: 1.8rem;
           font-weight: 700;
           padding-bottom: 1rem;
-          color:  grey;
+          color:  #5b5b5b;
         }
         &-text {
           font-family: $fontMont;
           font-size: 1.4rem;
           font-weight: 500;
           line-height: 2.5rem;
-          color: grey;
+          color: #5b5b5b;
 
           @include breakpoint(iPhone) {
             font-size: 11px;
