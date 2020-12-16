@@ -71,6 +71,11 @@ html {
   }
 }
 
+/* This changes all the animations globally */
+.animate__animated .animate__flipInX {
+  --animate-delay: 5s;
+}
+
 @-webkit-keyframes moveInTop {
   0% {
     opacity: 0;
