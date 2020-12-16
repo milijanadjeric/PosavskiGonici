@@ -150,32 +150,18 @@ html {
 }
 
 @media (max-width: 415px) {
-  @-webkit-keyframes moveInLeft {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateX(5rem);
-              transform: translateX(5rem);
-    }
-  }
-  @keyframes moveInLeft {
-    0% {
-      opacity: 0;
-      -webkit-transform: translateX(5rem);
-              transform: translateX(5rem);
-    }
-  }
   @-webkit-keyframes moveInTop {
     0% {
       opacity: 0;
-      -webkit-transform: translateY(-10rem);
-              transform: translateY(-10rem);
+      -webkit-transform: translateY(-15rem);
+              transform: translateY(-15rem);
     }
   }
   @keyframes moveInTop {
     0% {
       opacity: 0;
-      -webkit-transform: translateY(-10rem);
-              transform: translateY(-10rem);
+      -webkit-transform: translateY(-15rem);
+              transform: translateY(-15rem);
     }
   }
 }
@@ -643,7 +629,9 @@ nav li a {
   overflow-x: hidden;
   -webkit-transition: 0.3s;
   transition: 0.3s;
-  border-top: 0.1rem solid #6b00b3;
+  border-top: .2rem solid  #99ffeb;
+  -webkit-box-shadow: inset 0px 6px 3px -3px #efefef;
+          box-shadow: inset 0px 6px 3px -3px #efefef;
 }
 
 .overlay-content {
