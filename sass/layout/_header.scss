@@ -24,7 +24,7 @@ nav{
   }
   @include breakpoint(iPhone) {
     height: 8vh;
-    border-top: .1rem solid $primaryColor;
+    border-top: .1rem solid  #99ffeb;
   }
   @include breakpoint(desktop--Big) {
     height: 8vh;
