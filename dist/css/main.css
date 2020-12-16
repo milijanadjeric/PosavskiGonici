@@ -531,7 +531,7 @@ nav {
 @media (max-width: 415px) {
   nav {
     height: 8vh;
-    border-top: .1rem solid  #99ffeb;
+    border-top: .2rem solid  #99ffeb;
   }
 }
 
@@ -639,8 +639,8 @@ nav li a {
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
   border-top: 0.1rem solid #6b00b3;
 }
 

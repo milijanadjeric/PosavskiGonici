@@ -24,7 +24,8 @@ nav{
   }
   @include breakpoint(iPhone) {
     height: 8vh;
-    border-top: .1rem solid  #99ffeb;
+    border-top: .2rem solid  #99ffeb;
+    
   }
   @include breakpoint(desktop--Big) {
     height: 8vh;
@@ -122,7 +123,7 @@ nav{
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  transition: 0.5s;
+  transition: 0.3s;
   border-top: .1rem solid $primaryColor;
 }
 
