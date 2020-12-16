@@ -1881,6 +1881,7 @@ iframe {
   margin-bottom: 7rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+  text-align: justify;
 }
 
 .news_content_text-title {
