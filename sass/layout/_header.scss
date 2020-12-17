@@ -25,7 +25,7 @@ nav{
   @include breakpoint(iPhone) {
     height: 8vh;
     border-top: .2rem solid  #99ffeb;
-    box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -9px 3px -3px #efefef, 
+    box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -6px 3px -3px #efefef, 
     
   }
   @include breakpoint(desktop--Big) {
