@@ -9,7 +9,10 @@
   @include breakpoint(desktop) {
     height: 92vh;
   }
-
+  @include breakpoint(desktop--Smaller) {
+    height: 90vh;
+  }
+  
   @include breakpoint(desktop--Small) {
     height: 100%;
   }
@@ -92,7 +95,10 @@
   @include breakpoint(desktop--Small) {
     margin: 16.85rem 0;
   }
-
+  @include breakpoint(desktop--Smaller) {
+    padding: 24px 40px 40px;
+  }
+  
   @include breakpoint (tablet) {
     margin: 12.4rem 0;
   }
@@ -170,6 +176,11 @@ input[type="submit"] {
   background-color: rgba(107, 0, 179, 0.753);
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+      @include breakpoint (desktop--Smaller) {
+        right: 40px;
+        bottom: 17px;
+      }
 
       @include breakpoint (iPhone) {
         right: 20px;

@@ -40,6 +40,9 @@
     @include breakpoint(desktop) {
       margin-bottom: 7rem;
     }
+    @include breakpoint(desktop--Smaller) {
+      margin-bottom: 0;
+    }
   }
 
   &_gallery {
@@ -49,6 +52,10 @@
     margin: 0 auto;
     border: none;
     padding-top: 6rem;
+
+    @include breakpoint (desktop--Smaller) {
+      padding-top: 4rem;
+    }
 
     @include breakpoint(ipad--Landscape) {
       width: 80%;
@@ -83,7 +90,7 @@
       margin-top: 16.3rem;
     }
     @include breakpoint(desktop--Smaller) {
-      margin-top: 8.5rem;
+      margin-top: 6rem;
     }
     @include breakpoint (desktop--Small) {
       margin-top: 13.2rem;
@@ -96,7 +103,7 @@
       
     }
     @include breakpoint(desktop--Big) {
-      margin-top: 16.6rem;
+      margin-top: 12.6rem;
     }
   }
 
