@@ -97,10 +97,11 @@
   }
   @include breakpoint(desktop--Smaller) {
     padding: 24px 40px 40px;
+    margin: 10.85rem 0;
   }
   
   @include breakpoint (tablet) {
-    margin: 12.4rem 0;
+    margin: 17.4rem 0;
   }
 
   @include breakpoint(iPhone) {

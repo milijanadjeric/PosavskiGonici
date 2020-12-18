@@ -1683,7 +1683,7 @@ h2 {
 @media (max-width: 415px) {
   .video_gallery {
     width: 78%;
-    padding-top: 2rem;
+    padding-top: 8rem;
   }
 }
 
@@ -2080,12 +2080,13 @@ iframe {
 @media (max-width: 1366px) {
   .kontakt2-form {
     padding: 24px 40px 40px;
+    margin: 10.85rem 0;
   }
 }
 
 @media (max-width: 800px) {
   .kontakt2-form {
-    margin: 12.4rem 0;
+    margin: 17.4rem 0;
   }
 }
 
