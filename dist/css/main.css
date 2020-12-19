@@ -1285,7 +1285,8 @@ h2 {
   .about-race_text {
     width: 45rem;
     margin-bottom: 8rem;
-    font-size: 12px !important;
+    font-size: 18px !important;
+    line-height: 28px !important;
   }
 }
 
