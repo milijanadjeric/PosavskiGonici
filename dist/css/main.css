@@ -1934,6 +1934,12 @@ iframe {
   color: #5b5b5b;
 }
 
+@media (max-width: 415px) {
+  .news_content_text-title {
+    font-size: 15px !important;
+  }
+}
+
 .news_content_text-text {
   font-family: "Montserrat", sans-serif;
   font-size: 1.4rem;
@@ -1944,7 +1950,8 @@ iframe {
 
 @media (max-width: 415px) {
   .news_content_text-text {
-    font-size: 11px;
+    font-size: 15px !important;
+    line-height: 24px !important;
   }
 }
 
