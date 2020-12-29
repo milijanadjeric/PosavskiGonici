@@ -1,6 +1,7 @@
 .video {
   
   background-color: #f8f7f7c0;
+  padding-bottom: 8rem;
 
   &_center {
     width: 20rem;
@@ -42,6 +43,7 @@
     @include breakpoint (iPhone) {
       width: 78%;
       padding-top: 8rem;
+      
     }
     @include breakpoint (mobile--Big) {
       width: 86%;
@@ -54,70 +56,6 @@
     }
   }
 
-  &_link {
-    display: flex;
-    justify-content: flex-end;
-    margin-top: 7rem;
-
-    @include breakpoint(desktop) {
-      margin-top: 16.3rem;
-    }
-    @include breakpoint(desktop--Smaller) {
-      margin-top: 6rem;
-    }
-    @include breakpoint (desktop--Small) {
-      margin-top: 13.2rem;
-    }
-    @include breakpoint(ipad--Landscape) {
-      margin-top: 16.8rem;
-    }
-    @include breakpoint(iPhone) {
-      margin-top: 11rem;
-      
-    }
-    @include breakpoint(desktop--Big) {
-      margin-top: 12.4rem;
-    }
-  }
-
-  &_link a {
-    text-decoration: none;
-   
-  }
-
-  &_text2 {
-    display: flex;
-    align-items: center;
-    width: 20rem;
-    font-family: $fontMont;
-    color: $textWhite;
-    font-weight: 500;
-    font-size: 1.6rem;
-    text-align: center;
-    padding: 1.5rem 5rem;
-    background-color: $homeButtonsColor;
-    border-top: 0.1rem solid $homeButtonsBorder;
-    border-bottom: 0.1rem solid $homeButtonsBorder;
-    border-top-left-radius: 4rem;
-    border-bottom-left-radius: 4rem;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
-      @include breakpoint (iPhone) {
-        width: 18rem;
-      }
-
-    &-img {
-      width: 5rem;
-      padding-left: 1.5rem;
-    }
-  }
-
-  img {
-    padding-right: 0.1rem;
-    border: none;
-    outline: none;
-  }
 }
 iframe {
   
