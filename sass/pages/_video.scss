@@ -52,7 +52,7 @@
       width: 89%;
     }
     @include breakpoint (mobile--Smallest) {
-      width: 100%;
+      width: 94%;
     }
   }
 
@@ -68,9 +68,16 @@ iframe {
     height: 315px;
   }
 
+  
+
   &:not(:last-child) {
     @include breakpoint(iPhone) {
       margin-bottom: 9rem;
     }
   }
+  
+  @include breakpoint(mobile--Smallest) {
+    width: 300px;
+  }
 }
+

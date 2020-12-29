@@ -1663,7 +1663,7 @@ h2 {
 
 @media (max-width: 320px) {
   .video_gallery {
-    width: 100%;
+    width: 94%;
   }
 }
 
@@ -1684,6 +1684,12 @@ iframe {
 @media (max-width: 415px) {
   iframe:not(:last-child) {
     margin-bottom: 9rem;
+  }
+}
+
+@media (max-width: 320px) {
+  iframe {
+    width: 300px;
   }
 }
 
