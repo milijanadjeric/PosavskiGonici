@@ -1,34 +1,6 @@
 .video {
-  height: 90vh;
-  background-color: #f8f7f7c0;
-
-  @include breakpoint (desktop) {
-    height: 92vh;
-  }
-  @include breakpoint (desktop--Smaller) {
-    height: 90vh;
-  }
-  @include breakpoint (desktop--Small) {
-    height: 92vh;
-  }
-  @include breakpoint (ipad--Landscape) {
-    height: 94vh;
-  }
-
-  @include breakpoint(tablet) {
-    height: 95vh;
-  }
-
-  @include breakpoint (iPhone) {
-    height: 100%;
-    padding-bottom: 10rem;
-  }
-  @include breakpoint(desktop--Big) {
-    height: 92vh;
-  }
-
   
-
+  background-color: #f8f7f7c0;
 
   &_center {
     width: 20rem;
@@ -46,9 +18,10 @@
   }
 
   &_gallery {
-    width: 60%;
+    width: 90%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
+    flex-wrap: wrap;
     margin: 0 auto;
     border: none;
     padding-top: 6rem;
@@ -147,8 +120,7 @@
   }
 }
 iframe {
-  width: 320px;
-  height: 215px;
+  
   border: none;
   border-radius: 1rem;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);

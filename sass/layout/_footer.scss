@@ -100,7 +100,7 @@
 }
 
 .footer-text {
-  height: 8vh;
+  height: 6vh;
   background-color: #4cabcdce;
   display: flex;
   justify-content: center;
@@ -110,12 +110,6 @@
   font-weight: 400;
   color:white;
 
-  @include breakpoint (ipad--Landscape) {
-    height: 6vh;
-  }
-
-  
-  
 }
 
 .link-hidden {
