@@ -790,6 +790,13 @@ nav li a {
   padding-right: 20px;
 }
 
+.kontakt a {
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.6rem;
+  color: #99ffeb;
+}
+
 @media (max-width: 415px) {
   .kontakt_icons .hide {
     display: none;
