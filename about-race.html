@@ -65,11 +65,41 @@
 
 
     <section class="about-race" id="aboutrace">
-        <p class="about-race_text">
-            <b>Glava:</b> Glava Posavca mora da bude u skladu i proporciji sa telom psa, u lobanjskom delu ne sme da bude preširoka. Dužina lobanje (od okcipitalne kosti do stopa) je nešto duža od gubice (od stopa do njuške). Lobanja mora da bude ravna, sa blagim lateralnim zaobljenjem. Stop mora da bude izražen, ali ne previše markiran ili pak predugačak. Linije lobanje i gubice su blago divergentne. Žvakaći mišići i zigomatične arkade ne smeju da budu previše izražene, jer to remeti skladnost glave. Koža na glavi mora da bude bez nabora.<br>
-            <b>Uši:</b> Po obliku, uši su ravnokraki trougao. Ne smeju da budu preduge niti prekratke i vrh uha mora da bude blago zaobljen. Ako se povuku napred, dosežu obično do unutrašnjeg očnog ugla ili stopa. Kada se dodirnu, treba da budu "baršunaste". <br>
-            <b>Oči:</b> Kod Posavca oči su bademastog oblika u subfrontalnom položaju sa uglom usađenosti na horizontalu od 10&deg;. Oko (šarenica) pigmentirano je u skladu sa bojom psa. Očni kapci su čvrsto priljubljeni i nisu opušteni, a ivice kapaka su crno ili smeđe pigmentisane. Svetlo oko je takođe greška koju treba penalizirati prema stepenu izraženosti.
-        </p>
+        <div class="about-race_text">
+            <div class="single-item3">
+                <div class="single-item3_box3">
+                    <b>Glava:</b> Glava Posavca mora da bude u skladu i proporciji sa telom psa, u lobanjskom delu ne
+                    sme da bude preširoka. Dužina lobanje (od okcipitalne kosti do stopa) je nešto duža od gubice (od
+                    stopa do njuške). Lobanja mora da bude ravna, sa blagim lateralnim zaobljenjem. Stop mora da bude
+                    izražen, ali ne previše markiran ili pak predugačak. Linije lobanje i gubice su blago divergentne.
+                    Žvakaći mišići i zigomatične arkade ne smeju da budu previše izražene, jer to remeti skladnost
+                    glave. Koža na glavi mora da bude bez nabora.<br>
+                    <b>Uši:</b> Po obliku, uši su ravnokraki trougao. Ne smeju da budu preduge niti prekratke i vrh uha
+                    mora da bude blago zaobljen. Ako se povuku napred, dosežu obično do unutrašnjeg očnog ugla ili
+                    stopa. Kada se dodirnu, treba da budu "baršunaste". <br>
+                    <b>Oči:</b> Kod Posavca oči su bademastog oblika u subfrontalnom položaju sa uglom usađenosti na
+                    horizontalu od 10&deg;. Oko (šarenica) pigmentirano je u skladu sa bojom psa. Očni kapci su čvrsto
+                    priljubljeni i nisu opušteni, a ivice kapaka su crno ili smeđe pigmentisane. Svetlo oko je takođe
+                    greška koju treba penalizirati prema stepenu izraženosti.
+                </div>
+                <div class="single-item3_box3">
+                    <b>Glava:</b> Glava Posavca mora da bude u skladu i proporciji sa telom psa, u lobanjskom delu ne
+                    sme da bude preširoka. Dužina lobanje (od okcipitalne kosti do stopa) je nešto duža od gubice (od
+                    stopa do njuške). Lobanja mora da bude ravna, sa blagim lateralnim zaobljenjem. Stop mora da bude
+                    izražen, ali ne previše markiran ili pak predugačak. Linije lobanje i gubice su blago divergentne.
+                    Žvakaći mišići i zigomatične arkade ne smeju da budu previše izražene, jer to remeti skladnost
+                    glave. Koža na glavi mora da bude bez nabora.<br>
+                    <b>Uši:</b> Po obliku, uši su ravnokraki trougao. Ne smeju da budu preduge niti prekratke i vrh uha
+                    mora da bude blago zaobljen. Ako se povuku napred, dosežu obično do unutrašnjeg očnog ugla ili
+                    stopa. Kada se dodirnu, treba da budu "baršunaste". <br>
+                    <b>Oči:</b> Kod Posavca oči su bademastog oblika u subfrontalnom položaju sa uglom usađenosti na
+                    horizontalu od 10&deg;. Oko (šarenica) pigmentirano je u skladu sa bojom psa. Očni kapci su čvrsto
+                    priljubljeni i nisu opušteni, a ivice kapaka su crno ili smeđe pigmentisane. Svetlo oko je takođe
+                    greška koju treba penalizirati prema stepenu izraženosti.
+                </div>
+            </div>
+
+        </div>
         <div class="about-race_right animate__animated animate__flipInX">
             <img src="img/icon_o_rasi.svg" alt="">
             <h2>O rasi</h2>
@@ -110,6 +140,47 @@
 
     <!-- END OF GOOGLE MAP -->
 
+    <!-- SLICK SLIDER -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./js/slick.min.js"></script>
+
+    <script>
+
+        /*  SLICK SLIDER*/
+        /* Slick needs to get Reinitialized on window Resize after it was destroyed */
+
+        $(window).on('load resize orientationchange', function () {
+            $('.single-item3').each(function () {
+                var $carousel = $(this);
+
+                /* Initializes a slick carousel only on mobile screens */
+
+                // slick on mobile
+                if ($(window).width() <= 320) {
+                    if ($carousel.hasClass('slick-initialized')) {
+                        $carousel.slick('unslick');
+                    }
+                }
+                else {
+                    if (!$carousel.hasClass('slick-initialized')) {
+                        $carousel.slick({
+                            prevArrow: "<img class='previous' src='./img/previous.svg'>",
+                            nextArrow: "<img class='next' src='./img/next.svg'>",
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            autoplay: false,
+                            arrows: true,
+                            dots: false,
+                            infinite: false
+                        });
+                    }
+                }
+            });
+
+        });
+
+    </script>
 
 
 
