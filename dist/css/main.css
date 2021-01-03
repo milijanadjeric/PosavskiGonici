@@ -1312,16 +1312,6 @@ h2 {
   z-index: 333;
 }
 
-.button-on-mobile {
-  visibility: hidden;
-}
-
-@media (max-width: 415px) {
-  .button-on-mobile {
-    visibility: visible;
-  }
-}
-
 .gallery {
   height: 90vh;
   background-color: #f8f7f7c0;
