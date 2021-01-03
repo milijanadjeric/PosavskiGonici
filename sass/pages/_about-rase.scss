@@ -15,6 +15,9 @@
   @include breakpoint(desktop--Small) {
     height: 92vh;
   }
+  @include breakpoint(ipad--Landscape) {
+    height: 94vh;
+  }
   @include breakpoint(tablet) {
     height: 55vh;
   }
@@ -55,7 +58,7 @@
 
     @include breakpoint(iPhone) {
       width: 45rem;
-      margin-bottom: 8rem;
+      margin-bottom: 15rem;
       font-size: 15px !important;
       line-height: 24px !important;
     }
@@ -64,3 +67,10 @@
     font-size: 11px;
   }
 }
+.single-item3 .next.slick-arrow, 
+.single-item3 .previous.slick-arrow  {
+  width: 30px;
+  z-index: 333;
+}
+
+
