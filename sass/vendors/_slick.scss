@@ -154,6 +154,10 @@ img.previous.slick-arrow {
     padding: 0;
     margin: 0;
     width: 100%;
+
+    @include breakpoint(desktop--Big) {
+        bottom: -105px;
+    }
     
     li {
         position: relative;
