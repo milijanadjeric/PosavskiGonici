@@ -4,8 +4,6 @@ html {
 
 .video {
   
-  background-color: #f8f7f7c0;
-  
 
   &_center {
     width: 20rem;
@@ -15,7 +13,10 @@ html {
     padding-top: 2rem;
     padding-bottom: 5rem;
 
-    
+    @include breakpoint(iPhone) {
+      padding-top: 3rem;
+    }
+
   }
 
   
