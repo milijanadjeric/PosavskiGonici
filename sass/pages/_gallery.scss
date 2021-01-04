@@ -19,23 +19,16 @@
     padding-top: 2rem;
     margin-bottom: 1rem;
 
-    @include breakpoint(desktop) {
-      margin-bottom: 7rem;
-    }
-    @include breakpoint(desktop--Smaller) {
-      margin-bottom: 3rem;
-    }
-
     @include breakpoint (ipad--Landscape) {
-      padding-top: 6rem;
-      margin-bottom: 14rem;
+      
+      margin-bottom: 4rem;
     }
     @include breakpoint (iPhone) {
       padding-top: 3rem;
       margin-bottom: 3rem;
     }
     @include breakpoint(mobile--Smallest) {
-      margin-bottom: 10rem;
+      margin-bottom: 4rem;
     }
   }
 }
@@ -47,12 +40,9 @@
   outline: none;
   }
 
- 
+
   
 }
-
-
-
 
 .row {
   display: flex;
@@ -94,5 +84,16 @@
 .hidden {
   @include breakpoint(iPhone) {
     display: none;
+  }
+}
+
+
+// "load more button je zbog dots:true, posato vidljiv, ovo ga sakriva
+
+#slick-slide01 {
+  display: none;
+
+  @include breakpoint(iPhone) {
+    display: block;
   }
 }

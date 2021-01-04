@@ -155,6 +155,10 @@ img.previous.slick-arrow {
     margin: 0;
     width: 100%;
 
+    @include breakpoint(ipad--Landscape) {
+        bottom: -75px;
+    }
+
     @include breakpoint(desktop--Big) {
         bottom: -105px;
     }
