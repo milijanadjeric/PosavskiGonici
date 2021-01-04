@@ -1,36 +1,16 @@
+
 .gallery {
-  height: 90vh;
+  padding-bottom: 17rem;
+  padding-right: 12rem;
+  padding-left: 12rem;
   background-color: #f8f7f7c0;
-  display: flex;
-  flex-direction: column;
 
-  @include breakpoint(desktop) {
-    height: 92vh;
+  @include breakpoint(iPhone) {
+    padding-right: 2rem;
+    padding-left: 2rem;
+    padding-bottom: 6px;
   }
-  @include breakpoint(desktop--Smaller) {
-    height: 90vh;
-  }
-  @include breakpoint(desktop--Small) {
-    height: 92vh;
-  }
-
-  @include breakpoint (ipad--Landscape) {
-    height: 94vh;
-  }
-
-  @include breakpoint(tablet) {
-    height: 95vh;
-  }
-
-  @include breakpoint (iPhone) {
-    height: 92vh;
-  }
-  @include breakpoint(desktop--Big) {
-    height: 92vh;
-  }
-
   
-
   &_center {
     width: 20rem;
     height: 20rem;
@@ -57,143 +37,60 @@
       margin-bottom: 10rem;
     }
   }
+}
 
-  &_slider {
-    display: flex;
-    width: 90%;
-    height: 40vh;
-    margin: 0 auto;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+.single-item {
 
-       @include breakpoint(desktop) {
-         height: 35vh;
-       }
-       @include breakpoint (desktop--Smaller) {
-        width: 80%;
-       }
-       @include breakpoint (desktop--Small) {
-         width: 90%;
-       }
-
-       @include breakpoint(ipad--Landscape) {
-         height: 30vh;
-       } 
-
-       @include breakpoint (tablet) {
-         height: 10vh;
-       }
-
-       @include breakpoint (iPhone) {
-         height: 30vh;
-       }
+  &_box {
+  border: none;
+  outline: none;
   }
 
-  &_link {
-    align-self: flex-end;
-    margin-top: 3.1rem;
-
-    @include breakpoint(desktop) {
-      margin-top: 10rem;
-    }
-    @include breakpoint(desktop--Smaller) {
-      margin-top: 5.1rem;
-    }
-    @include breakpoint(desktop--Small) {
-      margin-top: 10rem;
-    }
-
-    @include breakpoint(ipad--Landscape) {
-      margin-top: 12rem;
-    }
-    @include breakpoint(mobile--Smallest) {
-      margin-top: 8rem;
-    }
-    @include breakpoint(desktop--Big) {
-      margin-top: 10rem;
-    }
+ 
   
+}
 
-    a {
-      text-decoration: none;
-    }
-  }
 
-  &_text {
-    display: flex;
-    align-items: center;
-    width: 20rem;
-    font-family: $fontMont;
-    color: $textWhite;
-    font-weight: 500;
-    font-size: 1.6rem;
-    padding: 1.5rem 5rem;
-    text-align: center;
-    background-color: $homeButtonsColor;
-    border-top-left-radius: 4rem;
-    border-bottom-left-radius: 4rem;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border: none;
-    outline: none;
-    border-top: 0.1rem solid $homeButtonsBorder;
-    border-bottom: 0.1rem solid $homeButtonsBorder;
-    
 
-    @include breakpoint (iPhone) {
-      width: 18rem;
-    }
 
-    &-img {
-      width: 5rem;
-      padding-left: 1.5rem;
-    }
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 3px; 
+}
 
-  img {
-    padding-right: 0.1rem;
-    border: none;
-    outline: none;
+/* Create four equal columns that sits next to each other */
+.column {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 3px;
+}
 
-    @include breakpoint (iPhone) {
-      padding-right: 0;
-      
-    }
+.column img {
+  margin-top: 6px;
+  vertical-align: middle;
+  width: 100%;
+  
+}
 
-    
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .column {
+    flex: 50%;
+    max-width: 50%;
   }
 }
 
-.cetiri {
-  @include breakpoint(desktop) {
-    height: 35vh;
-  }
-  @include breakpoint(desktop--Smaller) {
-    height: 45vh;
-  }
-  @include breakpoint (tablet) {
-    height: 10vh;
-  }
-
-  @include breakpoint (iPhone) {
-    height: 30vh;
-  }
-
-  @include breakpoint(desktop--Large) {
-    height: 40vh;
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 415px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
   }
 }
 
-.deset {
-  height: 40vh;
-
-  @include breakpoint(desktop) {
-    height: 35vh;
-  }
-  @include breakpoint (tablet) {
-    height: 10vh;
-  }
-  @include breakpoint (iPhone) {
-    height: 30vh;
+.hidden {
+  @include breakpoint(iPhone) {
+    display: none;
   }
 }

@@ -80,6 +80,11 @@
       }
     }
   }
+  &_title-mobile span {
+    background-color:hsla(0, 0%, 0%, 0.9);
+    line-height:2
+  }
+
 
   &_image {
     opacity: 0.4;
