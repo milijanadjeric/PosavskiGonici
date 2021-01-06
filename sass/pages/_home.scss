@@ -94,7 +94,8 @@
     animation-name: moveInRight;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     position: relative;
 
     @include breakpoint(desktop) {
