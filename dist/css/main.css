@@ -1828,6 +1828,7 @@ input[type="submit"] {
 @media (max-width: 415px) {
   input[type="submit"] {
     right: 20px;
+    bottom: 30px;
   }
 }
 
