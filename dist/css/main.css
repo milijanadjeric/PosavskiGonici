@@ -1234,7 +1234,7 @@ h2 {
   background-color: #f8f7f7c0;
   border: 1px solid rgba(107, 0, 179, 0.753);
   border-radius: 1rem;
-  padding: 4rem 4rem;
+  padding: 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1242,6 +1242,7 @@ h2 {
 @media (max-width: 415px) {
   .about-race_text {
     width: 45rem;
+    padding: 2rem;
     margin-bottom: 15rem;
     font-size: 15px !important;
     line-height: 24px !important;
