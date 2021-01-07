@@ -1517,11 +1517,13 @@ iframe {
 }
 
 .news_box_left {
-  width: 50rem;
+  width: 45rem;
+  margin: 0 auto;
 }
 
 .news_box_right {
-  width: 50rem;
+  width: 45rem;
+  margin: 0 auto;
 }
 
 .news_content {
