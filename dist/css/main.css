@@ -427,7 +427,7 @@ nav {
 
 @media (max-width: 1280px) {
   nav {
-    height: 8vh;
+    height: 9vh;
   }
 }
 
@@ -878,8 +878,7 @@ nav li a {
 }
 
 .main_title-mobile span {
-  background-color: rgba(0, 0, 0, 0.5);
-  line-height: 2;
+  background-color: rgba(0, 0, 0, 0.4);
 }
 
 .main_image {
@@ -1681,6 +1680,7 @@ iframe {
   font-size: 1.5rem;
   color: white;
   font-weight: 500;
+  letter-spacing: .5px;
   padding: 1.5rem;
   border: .1rem solid #99ffeb;
   border-radius: 3rem;
