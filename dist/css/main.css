@@ -1020,6 +1020,12 @@ h2 {
   padding-top: 1rem;
 }
 
+@media (max-width: 415px) {
+  h2 {
+    font-weight: 400;
+  }
+}
+
 .about-us {
   height: 90vh;
   display: -webkit-box;
@@ -1128,6 +1134,12 @@ h2 {
   text-transform: uppercase;
   color: #7bc0da;
   padding-top: 1rem;
+}
+
+@media (max-width: 415px) {
+  h2 {
+    font-weight: 400;
+  }
 }
 
 .about-race {
