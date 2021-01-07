@@ -1105,7 +1105,7 @@ h2 {
   border: 1px solid  #4cabcdce;
   border-radius: 1rem;
   color: #5b5b5b;
-  padding: 4rem 4rem;
+  padding: 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
@@ -1114,6 +1114,7 @@ h2 {
   .about-us_text {
     width: 45rem;
     margin-bottom: 8rem;
+    padding: 2rem;
     font-size: 15px !important;
     line-height: 24px !important;
   }
