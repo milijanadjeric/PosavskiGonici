@@ -6,7 +6,6 @@ button#loadLess.loadMore {
 
   @include breakpoint(iPhone) {
     display: flex;
-    
     align-items: center;
     font-family: $fontMont;
     color: $textWhite;

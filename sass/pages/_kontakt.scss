@@ -175,7 +175,7 @@ input[type="submit"] {
   position: absolute;
   right: 70px;
   bottom: 37px;
-  background-color: rgba(107, 0, 179, 0.753);
+  background-color: $homeButtonsColor;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
       0 6px 20px 0 rgba(0, 0, 0, 0.19);
 

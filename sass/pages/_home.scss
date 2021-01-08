@@ -3,7 +3,6 @@
   display: flex;
   justify-content: space-between;
   height: 90vh;
-  
 
   @include breakpoint(desktop) {
     height: 92vh;
@@ -24,11 +23,9 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 92vh;
     flex-direction: column;
-    padding-top: 30%;
   }
-  
+
   @include breakpoint(desktop--Big) {
     height: 92vh;
   }
@@ -68,34 +65,27 @@
       color: $mainTitleColor;
       font-size: 3.5rem;
       letter-spacing: 0.3rem;
-      
-      
 
-      
       @include breakpoint(mobile--Smallest) {
-        top: 290px;
+        top: 280px;
         left: -225px;
-        
-        
       }
     }
   }
   &_title-mobile span {
-    background-color:hsla(0, 0%, 0%, 0.4);
-    
+    background-color: hsla(0, 0%, 0%, 0.4);
   }
-
 
   &_image {
     opacity: 0.4;
-    width: 100rem;
+    width: 100%;
     height: 90vh;
     -webkit-animation-name: moveInRight;
     animation-name: moveInRight;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
     -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
-            clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
+    clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
     position: relative;
 
     @include breakpoint(desktop) {
@@ -108,10 +98,10 @@
     @include breakpoint(desktop--Small) {
       height: 92vh;
     }
-
-    @include breakpoint(iPhone) {
+    @include breakpoint(tablet) {
       display: none;
     }
+
     @include breakpoint(desktop--Big) {
       width: 105rem;
       height: 92vh;
@@ -145,7 +135,6 @@
       box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
-
       &:hover {
         cursor: pointer;
       }
@@ -173,11 +162,9 @@
       box-shadow: 0 0.8rem 2rem 0 rgba(0, 0, 0, 0.4),
         0 0.6rem 2rem 0 rgba(0, 0, 0, 0.4);
 
-        @include breakpoint(iPhone) {
-          margin-bottom: 0;
-        }
-
-        
+      @include breakpoint(iPhone) {
+        margin-bottom: 0;
+      }
 
       &:hover {
         cursor: pointer;

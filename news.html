@@ -31,6 +31,7 @@
                 <li><a href="gallery.html">galerija</a></li>
                 <li><a href="video.html">video</a></li>
                 <li><a href="news.html">vesti</a></li>
+                <li><a href="kontakt.html">kontakt</a></li>
             </ul>
             <a class="mobile-nav-icon" onclick="openNav()"><img class="mobile-nav-icon_img" src="img/icon_menu.svg"
                     alt=""></a>
@@ -75,8 +76,14 @@
                 <div class="news_content">
                     <img class="news_content-image" src="img/icon_news.svg" alt="">
                     <div class="news_content_text">
-                        <h3 class="news_content_text-title">Naslov</h3>
-                        <p class="news_content_text-text">30.02.2020.</p>
+                        <div class="news_content_text-share">
+                        <h3 class="news_content_text-text">30.02.2020.</h3>
+                        <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+                            <img src="img/icon_facebookshare.svg" alt=""> 
+                          </a>
+                          <a id="viber_share">Click</a>
+                        </div>
+                        <p class="news_content_text-title">Naslov</p>
                         <p class="news_content_text-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Saepe numquam id suscipit sequi ea
                             laboriosam
@@ -95,8 +102,13 @@
                 <div class="news_content">
                     <img class="news_content-image" src="img/icon_news.svg" alt="">
                     <div class="news_content_text">
-                        <h3 class="news_content_text-title">Naslov</h3>
-                        <p class="news_content_text-text">30.02.2020.</p>
+                        <div class="news_content_text-share">
+                            <h3 class="news_content_text-text">30.02.2020.</h3>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+                                <img src="img/icon_facebookshare.svg" alt="">
+                              </a>
+                            </div>
+                            <p class="news_content_text-title">Naslov</p>
                         <p class="news_content_text-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Saepe numquam id suscipit sequi ea
                             laboriosam
@@ -118,8 +130,13 @@
                 <div class="news_content">
                     <img class="news_content-image" src="img/icon_news.svg" alt="">
                     <div class="news_content_text">
-                        <h3 class="news_content_text-title">Naslov</h3>
-                        <p class="news_content_text-text">30.02.2020.</p>
+                        <div class="news_content_text-share">
+                            <h3 class="news_content_text-text">30.02.2020.</h3>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+                                <img src="img/icon_facebookshare.svg" alt="">
+                              </a>
+                            </div>
+                            <p class="news_content_text-title">Naslov</p>
                         <p class="news_content_text-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Saepe numquam id suscipit sequi ea
                             laboriosam
@@ -138,8 +155,13 @@
                 <div class="news_content">
                     <img class="news_content-image" src="img/icon_news.svg" alt="">
                     <div class="news_content_text">
-                        <h3 class="news_content_text-title">Naslov</h3>
-                        <p class="news_content_text-text">30.02.2020.</p>
+                        <div class="news_content_text-share">
+                            <h3 class="news_content_text-text">30.02.2020.</h3>
+                            <a href="https://www.facebook.com/sharer/sharer.php?u=example.org" target="_blank">
+                                <img src="img/icon_facebookshare.svg" alt="">
+                              </a>
+                            </div>
+                            <p class="news_content_text-title">Naslov</p>
                         <p class="news_content_text-text">Lorem ipsum, dolor sit amet consectetur adipisicing elit.
                             Saepe numquam id suscipit sequi ea
                             laboriosam
@@ -196,6 +218,13 @@
         src='https://maps-generator.com/google-maps-authorization/script.js?id=65e31e424e9420bfeae754bd199d760b2be39d58'></script>
 
     <!-- END OF GOOGLE MAP -->
+
+    <script>
+        var buttonID = "viber_share";
+        var text = "Check this out: ";
+        document.getElementById(buttonID)
+            .setAttribute('href', "https://3p3x.adj.st/?adjust_t=u783g1_kw9yml&adjust_fallback=https%3A%2F%2Fwww.viber.com%2F%3Futm_source%3DPartner%26utm_medium%3DSharebutton%26utm_campaign%3DDefualt&adjust_campaign=Sharebutton&adjust_deeplink=" + encodeURIComponent("viber://forward?text=" + encodeURIComponent(text + " " + window.location.href)));
+    </script>
 
 
 

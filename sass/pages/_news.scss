@@ -64,8 +64,16 @@
         box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
         text-align: justify;
 
-        
-  
+        &-share {
+          display: flex;
+          justify-content: space-between;
+
+          a {
+            margin-right: 2rem;
+          }
+
+        }
+
         &-title {
           font-family: $fontMont;
           font-size: 1.8rem;
