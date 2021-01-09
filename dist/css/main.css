@@ -1558,7 +1558,7 @@ iframe {
 
 @media (max-width: 375px) {
   .news_social-share {
-    left: -vh;
+    left: -9vh;
   }
 }
 
