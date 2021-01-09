@@ -37,7 +37,7 @@
       -webkit-transform: rotate(450deg);
     transform: rotate(450deg);
     }
-    @include breakpoint (mobile--Big) {
+    @include breakpoint (mobile) {
       left: -8.8vh;
     }
 
