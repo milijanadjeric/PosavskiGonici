@@ -586,11 +586,11 @@ nav li a {
   left: 0;
   background-color: white;
   overflow-x: hidden;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
   border-top: .2rem solid  #99ffeb;
   -webkit-box-shadow: inset 0px 6px 3px -3px #efefef;
           box-shadow: inset 0px 6px 3px -3px #efefef;
+  -webkit-transition: all .5s ease-in-out;
+  transition: all .5s ease-in-out;
 }
 
 .overlay-content {
@@ -1543,7 +1543,7 @@ iframe {
 
 @media (max-width: 360px) {
   .news_social-share {
-    left: -8.8vh;
+    left: -8.6vh;
   }
 }
 
