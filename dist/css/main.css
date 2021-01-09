@@ -1550,7 +1550,7 @@ iframe {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     top: 17vh;
-    left: -8vh;
+    left: -8.2vh;
     -webkit-transform: rotate(450deg);
     transform: rotate(450deg);
   }
@@ -1558,7 +1558,7 @@ iframe {
 
 @media (max-width: 375px) {
   .news_social-share {
-    left: -9vh;
+    left: -8.5vh;
   }
 }
 
@@ -1569,7 +1569,7 @@ iframe {
   }
 }
 
-.news_social-share a:not(:last-child) {
+.news_social-share a {
   margin-right: 5px;
 }
 

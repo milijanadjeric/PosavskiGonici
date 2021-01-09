@@ -33,12 +33,12 @@
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
      top: 17vh;
-     left: -8vh;
+     left: -8.2vh;
       -webkit-transform: rotate(450deg);
     transform: rotate(450deg);
     }
     @include breakpoint (mobile--Big) {
-      left: -9vh;
+      left: -8.5vh;
     }
 
     img {
@@ -48,7 +48,7 @@
       }
     }
 
-    a:not(:last-child) {
+    a {
       margin-right: 5px;
     }
   
