@@ -38,7 +38,7 @@
     transform: rotate(450deg);
     }
     @include breakpoint (mobile--Big) {
-      left: -8.4vh;
+      left: -8.6vh;
     }
 
     img {
@@ -97,12 +97,7 @@
     justify-content: center;
     align-items: center;
 
-    &-image {
-      width: 8rem;
-      border: 1px solid #41dfd0;
-      border-radius: 50%;
-      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-    }
+    
 
     &_text {
       display: flex;

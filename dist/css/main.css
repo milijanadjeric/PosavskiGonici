@@ -1558,7 +1558,7 @@ iframe {
 
 @media (max-width: 375px) {
   .news_social-share {
-    left: -8.4vh;
+    left: -8.6vh;
   }
 }
 
@@ -1632,14 +1632,6 @@ iframe {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-}
-
-.news_content-image {
-  width: 8rem;
-  border: 1px solid #41dfd0;
-  border-radius: 50%;
-  -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-          box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
 }
 
 .news_content_text {
