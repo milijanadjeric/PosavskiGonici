@@ -1558,7 +1558,7 @@ iframe {
 
 @media (max-width: 375px) {
   .news_social-share {
-    left: -8.5vh;
+    left: -8.4vh;
   }
 }
 
@@ -1570,6 +1570,7 @@ iframe {
 }
 
 .news_social-share a {
+  text-decoration: none;
   margin-right: 5px;
 }
 

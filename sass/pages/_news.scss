@@ -38,7 +38,7 @@
     transform: rotate(450deg);
     }
     @include breakpoint (mobile--Big) {
-      left: -8.5vh;
+      left: -8.4vh;
     }
 
     img {
@@ -49,6 +49,7 @@
     }
 
     a {
+      text-decoration: none;
       margin-right: 5px;
     }
   
