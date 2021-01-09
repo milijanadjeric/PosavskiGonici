@@ -556,8 +556,8 @@ nav li a {
 }
 
 .mobile-nav-icon_img {
-  width: 5rem;
-  margin-right: 4rem;
+  width: 4.5rem;
+  margin-right: 5rem;
 }
 
 .closebtn {
@@ -1524,7 +1524,7 @@ iframe {
   box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   /* Add a mouse pointer on hover */
-  padding: 5px 15px;
+  padding: 5px;
   /* Some padding */
 }
 
