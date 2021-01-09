@@ -1541,12 +1541,6 @@ iframe {
   }
 }
 
-@media (max-width: 360px) {
-  .news_social-share {
-    left: -8.4vh;
-  }
-}
-
 @media (max-width: 415px) {
   .news_social-share img {
     -webkit-transform: rotate(180deg);
