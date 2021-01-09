@@ -1,104 +1,142 @@
 .news {
+  display: flex;
+  flex-direction: column;
+  background-color: #f8f7f7c0;
+  position: relative;
+
+  &_social-share {
+    -webkit-animation-name: moveInBottom;
+    animation-name: moveInBottom;
+    -webkit-animation-duration: 2s;
+    animation-duration: 2s;
+    position: fixed;
+    left: 0;
+    z-index: 99;
+    top: 20%;
+    /* Text color */
+    background-color: #7a00cc;
+    border-top: 0.1rem solid #99ffeb;
+    border-bottom: 0.1rem solid #99ffeb;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    -webkit-box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2),
+      0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2),
+      0 6px 10px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+    /* Add a mouse pointer on hover */
+    padding: 5px 15px;
+    /* Some padding */
+
+   
+    @include breakpoint (iPhone) {
+      border-top-left-radius: 30px;
+      border-bottom-left-radius: 30px;
+     top: 16vh;
+     left: -8vh;
+      -webkit-transform: rotate(450deg);
+    transform: rotate(450deg);
+    
+   
+
+    }
+
+    img {
+      @include breakpoint (iPhone) {
+        -webkit-transform: rotate(180deg);
+        transform: rotate(180deg);
+      }
+    }
+
+    a:not(:last-child) {
+      margin-right: 5px;
+    }
+  
+
+    
+  }
+
+  &_center {
+    width: 20rem;
+    height: 17rem;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 2rem;
+    margin-bottom: 4rem;
+
+    @include breakpoint(iPhone) {
+      margin-bottom: 12rem;
+      padding-top: 3rem;
+    }
+  }
+
+  &_box {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 3rem;
+
+    @include breakpoint(iPhone) {
+      flex-direction: column;
+      margin: 0 auto;
+    }
+
+    &_left {
+      width: 45rem;
+     
+    }
+
+    &_right {
+      width: 45rem;
+      
+    }
+  }
+  &_content {
     display: flex;
     flex-direction: column;
-    background-color:  #f8f7f7c0;
-  
-  
-    &_center {
-      width: 20rem;
-      height: 17rem;
-      margin: 0 auto;
-      text-align: center;
-      padding-top: 2rem;
-      margin-bottom: 4rem;
+    justify-content: center;
+    align-items: center;
 
-      @include breakpoint(iPhone) {
-        margin-bottom: 12rem;
-        padding-top: 3rem;
-      }
-      
+    &-image {
+      width: 8rem;
+      border: 1px solid #41dfd0;
+      border-radius: 50%;
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
     }
-  
-    &_box {
-      display: flex;
-      justify-content: space-evenly;
-      margin-top: 3rem;
 
-      @include breakpoint(iPhone) {
-        flex-direction: column;
-        margin: 0 auto;
-      }
-  
-      &_left {
-        width: 45rem;
-        margin: 0 auto;
-      }
-  
-      &_right {
-        width: 45rem;
-        margin: 0 auto;
-      }
-    }
-    &_content {
+    &_text {
       display: flex;
       flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      
-  
-      &-image {
-        width: 8rem;
-        border: 1px solid #41dfd0;
-        border-radius: 50%;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+      padding: 2rem;
+      border: 1px solid #41dfd0;
+      border-radius: 1rem;
+      margin-top: 2rem;
+      margin-bottom: 7rem;
+      box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+      text-align: justify;
+
+      &-title {
+        font-family: $fontMont;
+        font-size: 1.8rem;
+        font-weight: 700;
+        padding-bottom: 1rem;
+        color: #5b5b5b;
+
+        @include breakpoint(iPhone) {
+          font-size: 15px !important;
+        }
       }
-  
-      &_text {
-        display: flex;
-        flex-direction: column;
-        padding: 2rem;
-        border: 1px solid #41dfd0;
-        border-radius: 1rem;
-        margin-top: 2rem;
-        margin-bottom: 7rem;
-        box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-        text-align: justify;
+      &-text {
+        font-family: $fontMont;
+        font-size: 1.4rem;
+        font-weight: 500;
+        line-height: 2.5rem;
+        color: #5b5b5b;
 
-        &-share {
-          display: flex;
-          justify-content: space-between;
-
-          a {
-            margin-right: 2rem;
-          }
-
-        }
-
-        &-title {
-          font-family: $fontMont;
-          font-size: 1.8rem;
-          font-weight: 700;
-          padding-bottom: 1rem;
-          color:  #5b5b5b;
-
-          @include breakpoint(iPhone) {
-            font-size: 15px !important;
-          }
-        }
-        &-text {
-          font-family: $fontMont;
-          font-size: 1.4rem;
-          font-weight: 500;
-          line-height: 2.5rem;
-          color: #5b5b5b;
-
-          @include breakpoint(iPhone) {
-            font-size: 14px !important;
-      line-height: 24px !important;
-          }
-
-          
+        @include breakpoint(iPhone) {
+          font-size: 14px !important;
+          line-height: 24px !important;
         }
       }
     }
   }
+}
