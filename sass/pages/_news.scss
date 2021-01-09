@@ -30,6 +30,7 @@
 
    
     @include breakpoint (iPhone) {
+      animation-name: none;
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
      top: 17vh;
