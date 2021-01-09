@@ -117,8 +117,8 @@ html {
 @-webkit-keyframes moveInBottom {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(20rem);
-            transform: translateY(20rem);
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
   }
   100% {
     opacity: 1;
@@ -130,8 +130,8 @@ html {
 @keyframes moveInBottom {
   0% {
     opacity: 0;
-    -webkit-transform: translateY(20rem);
-            transform: translateY(20rem);
+    -webkit-transform: translateY(10rem);
+            transform: translateY(10rem);
   }
   100% {
     opacity: 1;
@@ -144,15 +144,15 @@ html {
   @-webkit-keyframes moveInBottom {
     0% {
       opacity: 0;
-      -webkit-transform: translateX(-20rem);
-              transform: translateX(-20rem);
+      -webkit-transform: translateX(-10rem);
+              transform: translateX(-10rem);
     }
   }
   @keyframes moveInBottom {
     0% {
       opacity: 0;
-      -webkit-transform: translateX(-20rem);
-              transform: translateX(-20rem);
+      -webkit-transform: translateX(-10rem);
+              transform: translateX(-10rem);
     }
   }
 }
