@@ -1549,10 +1549,16 @@ iframe {
   .news_social-share {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
-    top: 16vh;
+    top: 17vh;
     left: -8vh;
     -webkit-transform: rotate(450deg);
     transform: rotate(450deg);
+  }
+}
+
+@media (max-width: 375px) {
+  .news_social-share {
+    left: -vh;
   }
 }
 
