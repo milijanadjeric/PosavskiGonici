@@ -26,6 +26,7 @@
     cursor: pointer;
     /* Add a mouse pointer on hover */
     padding: 5px;
+  
     /* Some padding */
 
    
@@ -39,7 +40,7 @@
     transform: rotate(450deg);
     }
     @include breakpoint (mobile) {
-      left: -9.2vh;
+      left: -8.8vh;
     }
 
     img {
