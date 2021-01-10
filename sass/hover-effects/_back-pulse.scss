@@ -2,7 +2,7 @@
 
 @include keyframes(#{$nameSpace}-back-pulse) {
 	50% {
-		background-color: rgba(107, 0, 179, .7)
+		background-color: #594bc4dc;
 	}
 }
 
@@ -21,7 +21,7 @@
 		@include prefixed(animation-timing-function, linear);
 		@include prefixed(animation-iteration-count, infinite);
 	
-		background-color: rgb(107, 0, 179);
+		background-color: #4f44a8;
 		color: white;
 	}
 }

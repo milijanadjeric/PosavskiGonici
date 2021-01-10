@@ -384,13 +384,13 @@ button#loadLess.loadMore {
 /* Back Pulse */
 @-webkit-keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(107, 0, 179, 0.7);
+    background-color: #594bc4dc;
   }
 }
 
 @keyframes hvr-back-pulse {
   50% {
-    background-color: rgba(107, 0, 179, 0.7);
+    background-color: #594bc4dc;
   }
 }
 
@@ -419,7 +419,7 @@ button#loadLess.loadMore {
   animation-timing-function: linear;
   -webkit-animation-iteration-count: infinite;
   animation-iteration-count: infinite;
-  background-color: #6b00b3;
+  background-color: #4f44a8;
   color: white;
 }
 
@@ -473,8 +473,8 @@ nav {
   nav {
     height: 8vh;
     border-top: .2rem solid  #99ffeb;
-    -webkit-box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -5px 3px -3px #efefef;
-            box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -5px 3px -3px #efefef;
+    -webkit-box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -6px 3px -3px #efefef;
+            box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -6px 3px -3px #efefef;
   }
 }
 
@@ -802,7 +802,7 @@ nav li a {
 }
 
 .main {
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: black;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -907,13 +907,9 @@ nav li a {
 }
 
 .main_image {
-  opacity: 0.4;
+  opacity: 0.9;
   width: 100%;
   height: 90vh;
-  -webkit-animation-name: moveInRight;
-  animation-name: moveInRight;
-  -webkit-animation-duration: 2s;
-  animation-duration: 2s;
   -webkit-clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   clip-path: polygon(25% 0%, 100% 0%, 100% 100%, 25% 100%, 0% 50%);
   position: relative;
@@ -1666,7 +1662,7 @@ iframe {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f8f7f7c0;
-  border-right: 2rem solid rgba(107, 0, 179, 0.753);
+  border-right: 2rem solid #4f44a8;
 }
 
 @media (max-width: 1440px) {
@@ -1748,18 +1744,21 @@ iframe {
 }
 
 .kontakt2_send {
-  background-color: #4f44a8;
   font-family: "Montserrat", sans-serif;
   font-size: 1.5rem;
-  color: white;
+  color: #f8f7f7;
   font-weight: 500;
   letter-spacing: .5px;
   padding: 1.5rem;
-  border: .1rem solid #99ffeb;
+  border: .1rem solid #4cabcdce;
   border-radius: 3rem;
   outline: none;
   cursor: pointer;
   width: 20%;
+}
+
+.kontakt2_send:hover {
+  background-color: #4cabcd;
 }
 
 @media (max-width: 415px) {
@@ -1886,7 +1885,7 @@ input[type="submit"] {
   position: absolute;
   right: 70px;
   bottom: 37px;
-  background-color: #4f44a8;
+  background-color: #4cabcde3;
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
