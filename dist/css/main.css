@@ -1515,13 +1515,6 @@ iframe {
   z-index: 99;
   top: 20%;
   /* Text color */
-  background-color: #7a00cc;
-  border-top: 0.1rem solid #99ffeb;
-  border-bottom: 0.1rem solid #99ffeb;
-  border-top-right-radius: 30px;
-  border-bottom-right-radius: 30px;
-  -webkit-box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
-  box-shadow: 0 8px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   cursor: pointer;
   /* Add a mouse pointer on hover */
   padding: 5px;
