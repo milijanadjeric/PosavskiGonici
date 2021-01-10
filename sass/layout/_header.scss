@@ -54,15 +54,15 @@ nav{
     padding-right: 8rem;
     font-family: $fontMont;
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: .1rem;
 
     :hover {
-      color: rgba(92, 0, 153, 0.7);
+      color: #5044a8d0;
       cursor: pointer;
     }
     :active {
-      color: rgba(92, 0, 153, 0.7);
+      color:#5044a8d0;
       
     }
   }
@@ -176,7 +176,8 @@ nav{
   padding: .8rem;
   text-decoration: none;
   font-size: 3.6rem;
-  color: #6b00b3;
+  font-weight: 500;
+  color:#4f44a8;
   line-height: 10rem;
   transition: 0.3s;
 }
