@@ -589,8 +589,8 @@ nav li a {
   border-top: .2rem solid  #99ffeb;
   -webkit-box-shadow: inset 0px 6px 3px -3px #efefef;
           box-shadow: inset 0px 6px 3px -3px #efefef;
-  -webkit-transition: all 1s ease;
-  transition: all 1s ease;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
 }
 
 .overlay-content {
