@@ -972,6 +972,7 @@ nav li a {
   margin-bottom: 2.5rem;
   background-color: #4f44a8;
   border-top: 0.1rem solid #99ffeb;
+  border-left: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
@@ -1004,6 +1005,7 @@ nav li a {
   margin-bottom: 6rem;
   background-color: #4f44a8;
   border-top: 0.1rem solid #99ffeb;
+  border-left: 0.1rem solid #99ffeb;
   border-bottom: 0.1rem solid #99ffeb;
   border-top-left-radius: 3rem;
   border-bottom-left-radius: 3rem;
