@@ -650,7 +650,7 @@ nav li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: rgba(107, 0, 179, 0.753);
+  background-color: #51008f;
 }
 
 @media (max-width: 1280px) {
@@ -1178,7 +1178,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f8f7f7c0;
-  border-right: 2rem solid rgba(107, 0, 179, 0.753);
+  border-right: 2rem solid #51008f;
 }
 
 @media (max-width: 1440px) {
@@ -1256,7 +1256,7 @@ h2 {
   width: 80rem;
   color: #5b5b5b;
   background-color: #f8f7f7c0;
-  border: 1px solid rgba(107, 0, 179, 0.753);
+  border: 1px solid #51008f;
   border-radius: 1rem;
   padding: 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);

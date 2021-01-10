@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color:  rgba(107, 0, 179, 0.753);
+  background-color:  #51008f;
 
   @include breakpoint(desktop--Small) {
     justify-content: space-evenly;
