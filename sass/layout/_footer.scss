@@ -60,6 +60,7 @@
   &_icons i {
     margin-right: 1rem;
     line-height: 5rem;
+    
   }
 
   &_icons h6 {
@@ -90,7 +91,7 @@
 #gmap_canvas {
   width: 340px;
   height: 250px;
-  opacity: 0.8;
+  opacity: 0.7;
 
   @include breakpoint (iPhone) {
     width: 310px;
@@ -112,7 +113,7 @@
   font-family: $fontMont;
   font-size: 1.5rem;
   font-weight: 400;
-  color: white;
+  color:  #f8f7f7c0;
 }
 
 .link-hidden {

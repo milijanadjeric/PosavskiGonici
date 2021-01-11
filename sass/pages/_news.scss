@@ -3,16 +3,21 @@
   flex-direction: column;
   background-color: #f8f7f7c0;
   position: relative;
+  border-right: 2rem solid #20c5c5;
+
+  @include breakpoint(iPhone) {
+    border-right: none;
+  }
 
   &_social-share {
     -webkit-animation-name: moveInBottom;
     animation-name: moveInBottom;
     -webkit-animation-duration: 2s;
     animation-duration: 2s;
-    position: fixed;
+    position: absolute;
     left: 0;
     z-index: 99;
-    top: 20%;
+    top: 10%;
     /* Text color */
    
     cursor: pointer;
@@ -26,7 +31,7 @@
       animation-name: none;
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
-     top: 17vh;
+     top: 10vh;
      left: -8.2vh;
       -webkit-transform: rotate(450deg);
     transform: rotate(450deg);
