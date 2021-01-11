@@ -472,9 +472,7 @@ nav {
 @media (max-width: 415px) {
   nav {
     height: 8vh;
-    border-top: .2rem solid  #99ffeb;
-    -webkit-box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -6px 3px -3px #efefef;
-            box-shadow: inset 0px 6px 3px -3px #efefef, inset 0px -6px 3px -3px #efefef;
+    background-color: #20c5c5;
   }
 }
 
