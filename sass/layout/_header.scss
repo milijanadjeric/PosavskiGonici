@@ -24,7 +24,8 @@ nav{
   }
   @include breakpoint(iPhone) {
     height: 8vh;
-    background-color:  #20c5c5;
+  align-items: center;
+  background-color:  #20c5c588;
     
   }
   @include breakpoint(desktop--Big) {

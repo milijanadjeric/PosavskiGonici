@@ -472,7 +472,10 @@ nav {
 @media (max-width: 415px) {
   nav {
     height: 8vh;
-    background-color: #20c5c5;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: #20c5c588;
   }
 }
 
