@@ -651,8 +651,8 @@ nav li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background: -webkit-gradient(linear, left top, left bottom, color-stop(10%, #20c5c5), to(#4f49aa));
-  background: linear-gradient(#20c5c5 10%, #4f49aa 100%);
+  background: -webkit-gradient(linear, left top, left bottom, from(#20c5c5), to(#4f49aa));
+  background: linear-gradient(#20c5c5 0%, #4f49aa 100%);
 }
 
 @media (max-width: 1280px) {

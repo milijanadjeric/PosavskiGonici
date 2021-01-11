@@ -5,7 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background: linear-gradient(#20c5c5 10%, #4f49aa 100%);
+  background: linear-gradient(#20c5c5 0%, #4f49aa 100%);
   @include breakpoint(desktop--Small) {
     justify-content: space-evenly;
   } 
