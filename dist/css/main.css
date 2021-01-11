@@ -651,7 +651,8 @@ nav li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #4f44a8;
+  background: -webkit-gradient(linear, left top, left bottom, from(#4CABCD), color-stop(40%, #4d87c0), to(#4f49aa));
+  background: linear-gradient(#4CABCD 0%, #4d87c0 40%, #4f49aa 100%);
 }
 
 @media (max-width: 1280px) {
@@ -781,7 +782,7 @@ nav li a {
 
 .footer-text {
   height: 6vh;
-  background-color: #4CABCD;
+  background-color: #4f44a8;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1061,7 +1062,7 @@ h2 {
       -ms-flex-align: center;
           align-items: center;
   background-color: #f8f7f7c0;
-  border-right: 2rem solid #4f44a8;
+  border-right: 2rem solid #4CABCD;
 }
 
 @media (max-width: 1440px) {

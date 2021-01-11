@@ -5,8 +5,7 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  background-color: #4f44a8;
-
+  background: linear-gradient(#4CABCD 0%, #4d87c0 40%, #4f49aa 100%);
   @include breakpoint(desktop--Small) {
     justify-content: space-evenly;
   } 
@@ -106,7 +105,7 @@
 
 .footer-text {
   height: 6vh;
-  background-color:#4CABCD;
+  background-color:  #4f44a8;
   display: flex;
   justify-content: center;
   align-items: center;
