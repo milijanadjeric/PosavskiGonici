@@ -430,51 +430,16 @@ nav {
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  background-color: white;
-  height: 10vh;
-  -webkit-box-shadow: 0 5px 5px #efefef;
-          box-shadow: 0 5px 5px #efefef;
-}
-
-@media (max-width: 1440px) {
-  nav {
-    height: 8vh;
-  }
-}
-
-@media (max-width: 1366px) {
-  nav {
-    height: 10vh;
-  }
-}
-
-@media (max-width: 1280px) {
-  nav {
-    height: 9vh;
-  }
-}
-
-@media (max-width: 1024px) {
-  nav {
-    height: 6vh;
-  }
-}
-
-@media (max-width: 800px) {
-  nav {
-    height: 5vh;
-  }
+  background-image: -webkit-gradient(linear, right bottom, left top, from(rgba(0, 0, 0, 0.2)), to(rgba(0, 0, 0, 0.8))), url("../../img/4Copy.jpg");
+  background-image: linear-gradient(to left top, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.8)), url("../../img/4Copy.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
 }
 
 @media (max-width: 415px) {
   nav {
-    height: 8vh;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
     background-color: #20c5c588;
   }
 }
@@ -531,6 +496,7 @@ nav li a {
 .logo {
   width: 8rem;
   margin-left: 13rem;
+  margin-top: 2.5rem;
 }
 
 @media (max-width: 800px) {
@@ -543,6 +509,12 @@ nav li a {
   .logo {
     margin-left: 4rem;
   }
+}
+
+.logo-beli {
+  width: 12rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
 }
 
 /*  mobile nav icon */
@@ -559,6 +531,7 @@ nav li a {
 .mobile-nav-icon_img {
   width: 4.5rem;
   margin-right: 5rem;
+  margin-top: 3rem;
 }
 
 .closebtn {
@@ -829,20 +802,6 @@ nav li a {
 @media (max-width: 1280px) {
   .main {
     height: 92vh;
-  }
-}
-
-@media (max-width: 415px) {
-  .main {
-    background-image: -webkit-gradient(linear, right top, left bottom, from(rgba(0, 0, 0, 0.1)), to(black)), url("../../img/4Copy.jpg");
-    background-image: linear-gradient(to left bottom, rgba(0, 0, 0, 0.1), black), url("../../img/4Copy.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
   }
 }
 

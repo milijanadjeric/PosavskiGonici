@@ -14,16 +14,7 @@
     height: 92vh;
   }
   @include breakpoint(iPhone) {
-    background-image: linear-gradient(
-        to left bottom,
-        rgba(0, 0, 0, 0.1),
-        rgb(0, 0, 0)
-      ),
-      url("../../img/4Copy.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    flex-direction: column;
+   
   }
 
   @include breakpoint(desktop--Big) {

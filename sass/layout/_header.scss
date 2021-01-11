@@ -1,30 +1,23 @@
 nav{
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: rgb(255,255,255);
-  height: 10vh;
-  box-shadow: 0 5px 5px #efefef;
+  
+  background-image: linear-gradient(
+    to left top,
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.8)
+  ),
+  url("../../img/4Copy.jpg");
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+height: 100vh;
 
-  @include breakpoint(desktop) {
-    height: 8vh;
-  }
-  @include breakpoint(desktop--Smaller) {
-    height: 10vh;
-  }
-  @include breakpoint(desktop--Small) {
-    height: 9vh;
-  }
-  @include breakpoint (ipad--Landscape) {
-    height: 6vh;
-  }
 
-  @include breakpoint(tablet) {
-    height: 5vh;
-  }
+  
   @include breakpoint(iPhone) {
-    height: 8vh;
-  align-items: center;
+   
+ 
   background-color:  #20c5c588;
     
   }
@@ -76,6 +69,7 @@ nav{
 .logo {
   width: 8rem;
   margin-left: 13rem;
+  margin-top: 2.5rem;
 
   @include breakpoint(tablet) {
     margin-left: 3rem;
@@ -86,6 +80,11 @@ nav{
   }
 }
 
+.logo-beli {
+  width: 12rem;
+  margin-top: 2rem;
+  margin-left: 3rem;
+}
 
 /*  mobile nav icon */
 
@@ -101,6 +100,7 @@ nav{
   &_img {
     width: 4.5rem;
     margin-right: 5rem;
+    margin-top: 3rem;
   }
 }
 
