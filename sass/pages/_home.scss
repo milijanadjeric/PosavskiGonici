@@ -14,7 +14,7 @@
     height: 92vh;
   }
   @include breakpoint(iPhone) {
-   
+    display: none;
   }
 
   @include breakpoint(desktop--Big) {
@@ -173,3 +173,49 @@
     }
   }
 }
+
+
+.homenav-mobile {
+  display: none;
+  
+  @include breakpoint(iPhone) {
+    display: flex;
+    align-items: flex-start;
+    height: 100vh;
+    background-image: linear-gradient(to left top, 
+    rgba(0, 0, 0, 0.2), 
+    rgba(0, 0, 0, 0.8)), 
+    url(../../img/4Copy.jpg);
+    background-position: center;
+    background-size: cover;
+  }
+
+
+  &_logo {
+    width: 12rem;
+    margin-top: 2.5rem;
+    margin-left: 4rem;
+  }
+
+  &_nav-icon {
+    width: 4.5rem;
+    margin-right: 5rem;
+    margin-top: 2.5rem;
+  }
+
+  
+
+}
+
+.navigation {
+
+@include breakpoint(iPhone) {
+  display: none;
+}
+
+}
+
+
+
+
+

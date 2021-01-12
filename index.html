@@ -26,8 +26,22 @@
 <body>
 
     <header>
-        <nav>
-            <a href="index.html"><img class="logo-beli" src="img/logo-beli.svg" alt=""></a>
+        <nav class="homenav-mobile">
+            <a href="index.html"><img class="homenav-mobile_logo" src="img/logo-beli.svg" alt=""></a>
+            <ul>
+                <li><a href="about-us.html">o nama</a></li>
+                <li><a href="about-race.html">o rasi</a></li>
+                <li><a href="gallery.html">galerija</a></li>
+                <li><a href="video.html">video</a></li>
+                <li><a href="news.html">vesti</a></li>
+                <li><a href="kontakt.html">kontakt</a></li>
+            </ul>
+            <a onclick="openNav()"><img class="homenav-mobile_nav-icon" src="img/icon_menu-white.svg"
+                    alt=""></a>
+                    
+        </nav>
+        <nav class="navigation">
+            <a href="index.html"><img class="logo" src="img/logo.svg" alt=""></a>
             <ul>
                 <li><a href="about-us.html">o nama</a></li>
                 <li><a href="about-race.html">o rasi</a></li>
@@ -66,9 +80,9 @@
     </header>
 
 
-    
+    <section class="main">
         <h1 class="main_title">posavski<br>goniči<br>jovana<br>pavlovića</h1>
-        
+        <h1 class="main_title-mobile"><span>posavski goniči jovana pavlovića</span></h1>
         <div>
             <img class="main_image" src="img/4.jpg" alt="">
             <div class="main_link">
@@ -82,7 +96,8 @@
                 </a>
             </div>
         </div>
-   
+    </section>
+
 </body>
 
 </html>
