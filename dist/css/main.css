@@ -586,8 +586,8 @@ nav .logo {
   left: 0;
   background-color: #f2f2f2;
   overflow-x: hidden;
-  -webkit-box-shadow: inset 0 0 20px #20c5c5;
-          box-shadow: inset 0 0 20px #20c5c5;
+  -webkit-box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.19);
+          box-shadow: inset 0 0 20px rgba(0, 0, 0, 0.19);
   -webkit-transition: all .5s ease;
   transition: all .5s ease;
 }
