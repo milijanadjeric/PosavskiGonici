@@ -1584,6 +1584,7 @@ iframe {
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
     left: -11rem;
+    top: 20%;
   }
 }
 
