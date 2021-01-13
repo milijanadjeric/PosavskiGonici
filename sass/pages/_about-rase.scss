@@ -69,6 +69,13 @@
     font-size: 11px;
   }
 }
+
+.single-item3 {
+  
+  &_box3 {
+    outline: none;
+  }
+}
 .single-item3 .next.slick-arrow, 
 .single-item3 .previous.slick-arrow  {
   width: 30px;
