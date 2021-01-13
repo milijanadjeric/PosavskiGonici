@@ -4,6 +4,10 @@ h2 {
   @include sectionTitle;
 }
 
+h1 {
+  @include sectionTitle1;
+}
+
 .about-us {
   height: 90vh;
   display: flex;

@@ -89,12 +89,3 @@
 }
 
 
-// "load more button je zbog dots:true, posato vidljiv, ovo ga sakriva
-
-#slick-slide01 {
-  display: none;
-
-  @include breakpoint(iPhone) {
-    display: block;
-  }
-}
