@@ -6,14 +6,13 @@
   background-color: #f8f7f7c0;
   border-right: 2rem solid #20c5c5;
 
-
   @include breakpoint(desktop) {
     height: 92vh;
   }
   @include breakpoint(desktop--Smaller) {
     height: 90vh;
   }
-  
+
   @include breakpoint(desktop--Small) {
     height: 100%;
   }
@@ -35,7 +34,6 @@
 
     @include breakpoint(iPhone) {
       margin: 4rem 0 6rem 0;
-      
     }
   }
 
@@ -61,25 +59,23 @@
   }
 
   &_send {
-   
     font-family: $fontMont;
     font-size: 1.5rem;
-    color:  #f8f7f7;
+    color: #f8f7f7;
     font-weight: 500;
-    letter-spacing: .5px;
+    letter-spacing: 0.5px;
     padding: 1.5rem;
-    border: .1rem solid #4cabcd;
+    border: 0.1rem solid #4cabcd;
     border-radius: 3rem;
     outline: none;
     cursor: pointer;
     width: 20%;
 
-    &:hover  {
+    &:hover {
       background-color: #4cabcdce;
-
     }
 
-    @include breakpoint (iPhone) {
+    @include breakpoint(iPhone) {
       font-size: 12px !important;
       width: 30%;
     }
@@ -90,16 +86,14 @@
   position: relative;
   width: 80rem;
   border-radius: 5px;
-  background-color:  #f8f7f7c0;
+  background-color: #f8f7f7c0;
   padding: 54px 70px 90px;
   box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
   font-family: $fontMont;
   font-size: 1.5rem;
   font-weight: 600;
-  color:  #4cabcdce;
+  color: #4cabcdce;
   border: 1px solid #4cabcdce;
-
-  
 
   @include breakpoint(desktop--Small) {
     margin: 16.85rem 0;
@@ -108,8 +102,8 @@
     padding: 24px 40px 40px;
     margin: 10.85rem 0;
   }
-  
-  @include breakpoint (tablet) {
+
+  @include breakpoint(tablet) {
     margin: 17.4rem 0;
   }
 
@@ -118,7 +112,6 @@
     margin: 0 0 8rem 0;
     padding: 40px 20px 60px;
     font-size: 12px !important;
-    
   }
 }
 
@@ -139,8 +132,8 @@ textarea {
   font-family: $fontMont;
   font-size: 1.3rem;
   font-weight: 400;
-  
-  @include breakpoint (iPhone) {
+
+  @include breakpoint(iPhone) {
     font-size: 12px !important;
   }
 }
@@ -149,16 +142,15 @@ input[type="text"] {
   margin-left: 25px;
 
   @include breakpoint(ipad--Landscape) {
-    width: 250px; 
+    width: 250px;
   }
 
-  @include breakpoint (iPhone) {
+  @include breakpoint(iPhone) {
     width: 200px;
   }
-  @include breakpoint (mobile--Smallest) {
+  @include breakpoint(mobile--Smallest) {
     width: 170px;
   }
-  
 }
 
 .kontakt2-form-email {
@@ -168,7 +160,6 @@ input[type="text"] {
     margin-left: 15px !important;
   }
 }
-
 
 textarea {
   min-height: 230px;
@@ -184,17 +175,16 @@ input[type="submit"] {
   right: 70px;
   bottom: 37px;
   background-color: #4cabcde3;
-  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2),
-      0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-tap-highlight-color: transparent;
 
-      @include breakpoint (desktop--Smaller) {
-        right: 40px;
-        bottom: 17px;
-      }
+  @include breakpoint(desktop--Smaller) {
+    right: 40px;
+    bottom: 17px;
+  }
 
-      @include breakpoint (iPhone) {
-        right: 20px;
-        bottom: 30px;
-      }
+  @include breakpoint(iPhone) {
+    right: 20px;
+    bottom: 30px;
+  }
 }
-

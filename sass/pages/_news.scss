@@ -21,6 +21,8 @@
     left: 0;
     z-index: 99;
     top: 15%;
+    -webkit-tap-highlight-color: transparent;
+    
     /* Text color */
 
     cursor: pointer;
@@ -54,6 +56,9 @@
     a {
       text-decoration: none;
     }
+    a{
+      -webkit-tap-highlight-color: transparent;
+      }
   }
 
   &_center {

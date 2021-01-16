@@ -23,6 +23,10 @@
   -moz-box-sizing: inherit;
 }
 
+a {
+  -webkit-tap-highlight-color: transparent;
+}
+
 /**
   * This defines what 1 rem is
   */
@@ -325,6 +329,7 @@ html {
   /* Some padding */
   font-size: 16px;
   /* Increase font size */
+  -webkit-tap-highlight-color: transparent;
 }
 
 #myBtn::before {
@@ -1569,6 +1574,7 @@ iframe {
   left: 0;
   z-index: 99;
   top: 15%;
+  -webkit-tap-highlight-color: transparent;
   /* Text color */
   cursor: pointer;
   /* Add a mouse pointer on hover */
@@ -1606,6 +1612,10 @@ iframe {
 
 .news_social-share a {
   text-decoration: none;
+}
+
+.news_social-share a {
+  -webkit-tap-highlight-color: transparent;
 }
 
 .news_center {
@@ -1813,9 +1823,9 @@ iframe {
   font-size: 1.5rem;
   color: #f8f7f7;
   font-weight: 500;
-  letter-spacing: .5px;
+  letter-spacing: 0.5px;
   padding: 1.5rem;
-  border: .1rem solid #4cabcd;
+  border: 0.1rem solid #4cabcd;
   border-radius: 3rem;
   outline: none;
   cursor: pointer;
@@ -1953,6 +1963,7 @@ input[type="submit"] {
   background-color: #4cabcde3;
   -webkit-box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
           box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-tap-highlight-color: transparent;
 }
 
 @media (max-width: 1366px) {

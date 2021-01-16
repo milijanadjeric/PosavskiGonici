@@ -22,6 +22,9 @@
   -moz-box-sizing: inherit;
 }
 
+a{
+  -webkit-tap-highlight-color: transparent;
+  }
 /**
   * This defines what 1 rem is
   */
