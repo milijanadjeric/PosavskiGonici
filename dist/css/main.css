@@ -1584,14 +1584,14 @@ iframe {
     border-bottom-left-radius: 30px;
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
-    left: -1.5rem;
+    left: -10.5rem;
     top: 20%;
   }
 }
 
 @media (max-width: 320px) {
   .news_social-share {
-    left: -2rem;
+    left: -12rem;
   }
 }
 
@@ -1719,6 +1719,21 @@ iframe {
     font-size: 14px !important;
     line-height: 24px !important;
   }
+}
+
+svg.viber {
+  width: 28px;
+  height: 27px;
+}
+
+svg.facebook {
+  width: 25px;
+  height: 25px;
+}
+
+svg.email {
+  width: 25px;
+  height: 24px;
 }
 
 .facebook:hover {
