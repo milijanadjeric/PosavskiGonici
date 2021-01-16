@@ -518,12 +518,13 @@ nav li {
   letter-spacing: .1rem;
 }
 
-nav li :hover {
+nav li :hover,
+nav li :active {
   color: #5044a8d0;
   cursor: pointer;
 }
 
-nav li :active {
+nav li :visited {
   color: #5044a8d0;
 }
 
@@ -1560,12 +1561,6 @@ iframe {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   position: fixed;
   -webkit-animation-name: moveInBottom;
   animation-name: moveInBottom;
@@ -1589,14 +1584,14 @@ iframe {
     border-bottom-left-radius: 30px;
     -webkit-transform: rotate(270deg);
             transform: rotate(270deg);
-    left: -11rem;
+    left: -1.5rem;
     top: 20%;
   }
 }
 
 @media (max-width: 320px) {
   .news_social-share {
-    left: -12rem;
+    left: -2rem;
   }
 }
 
@@ -1612,6 +1607,7 @@ iframe {
 
 .news_social-share a {
   text-decoration: none;
+  width: 40px;
 }
 
 .news_social-share a {
@@ -1723,6 +1719,18 @@ iframe {
     font-size: 14px !important;
     line-height: 24px !important;
   }
+}
+
+.facebook:hover {
+  fill: #1877f2;
+}
+
+.viber:hover {
+  fill: #7360f2;
+}
+
+.email:hover {
+  fill: #333333c2;
 }
 
 .kontakt2 {

@@ -11,8 +11,8 @@
 
   &_social-share {
     display: flex;
-    justify-content: center;
-    align-items: center;
+    
+
     position: fixed;
     -webkit-animation-name: moveInBottom;
     animation-name: moveInBottom;
@@ -35,17 +35,19 @@
       border-top-left-radius: 30px;
       border-bottom-left-radius: 30px;
       transform: rotate(270deg);
-      left: -11rem;
+      left: -1.5rem;
       top: 20%;
      
     }
 
     @include breakpoint(mobile--Smallest) {
-      left: -12rem;
+      left: -2rem;
     }
 
     img {
       margin-right: 10px;
+
+
 
       @include breakpoint(iPhone) {
         margin-right: 15px;
@@ -55,6 +57,7 @@
 
     a {
       text-decoration: none;
+      width: 40px;
     }
     a{
       -webkit-tap-highlight-color: transparent;
@@ -135,4 +138,13 @@
       }
     }
   }
+}
+.facebook:hover {
+  fill: #1877f2;
+}
+.viber:hover {
+  fill: #7360f2;
+}
+.email:hover {
+  fill: #333333c2;
 }

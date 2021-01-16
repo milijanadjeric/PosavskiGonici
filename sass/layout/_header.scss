@@ -57,19 +57,22 @@ nav{
     font-weight: 600;
     letter-spacing: .1rem;
 
-    :hover {
+    :hover, 
+    :active {
       color: #5044a8d0;
       cursor: pointer;
     }
-    :active {
-      color:#5044a8d0;
-      
+    :visited {
+      color:  #5044a8d0;
     }
+
   }
 
   li a {
     text-decoration: none;
     color: $linksColor;
+
+    
   }
 
   .logo {
@@ -164,7 +167,6 @@ nav{
     padding-bottom: 0 !important;
     padding-top: 0 !important;
   }
-  
 
   
   
@@ -181,6 +183,9 @@ nav{
   color:#4f44a8;
   line-height: 10rem;
   transition: 0.3s;
+
+  
 }
+
 
 
