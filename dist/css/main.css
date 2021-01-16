@@ -1306,7 +1306,7 @@ h2 {
   width: 80rem;
   color: #5b5b5b;
   background-color: #f8f7f7c0;
-  border: 1px solid rgba(107, 0, 179, 0.753);
+  border: 1px solid #4f44a8;
   border-radius: 1rem;
   padding: 4rem;
   -webkit-box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.19);
@@ -2159,7 +2159,7 @@ img.previous.slick-arrow.slick-disabled {
   font-weight: 700;
   line-height: 20px;
   text-align: center;
-  color: rgba(107, 0, 179, 0.342);
+  color: #5044a869;
   opacity: 0.8;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -2172,7 +2172,7 @@ img.previous.slick-arrow.slick-disabled {
 }
 
 .slick-dots li.slick-active button:before {
-  color: #6b00b3;
+  color: #4f44a8;
   opacity: 0.75;
 }
 /*# sourceMappingURL=main.css.map */
