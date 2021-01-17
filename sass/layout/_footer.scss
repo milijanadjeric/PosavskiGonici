@@ -173,6 +173,9 @@
     @include breakpoint(iPhone) {
       margin-right: 3rem;
     }
+    @include breakpoint(mobile) {
+      font-size: 60px;
+    }
   }
 
   &::after {
@@ -190,7 +193,9 @@
     @include breakpoint(iPhone)  {
       margin-left: 5rem;
     }
-    
+    @include breakpoint(mobile) {
+      font-size: 60px;
+    }
     
   }
 }

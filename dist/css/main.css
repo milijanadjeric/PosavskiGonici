@@ -900,6 +900,12 @@ nav .logo {
   }
 }
 
+@media (max-width: 360px) {
+  .footer-text::before {
+    font-size: 60px;
+  }
+}
+
 .footer-text::after {
   content: "-";
   color: #20c5c5;
@@ -919,6 +925,12 @@ nav .logo {
 @media (max-width: 415px) {
   .footer-text::after {
     margin-left: 5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-text::after {
+    font-size: 60px;
   }
 }
 
