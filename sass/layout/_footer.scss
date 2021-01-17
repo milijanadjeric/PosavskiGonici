@@ -1,5 +1,3 @@
-
-
 .kontakt {
   height: 50vh;
   display: flex;
@@ -8,15 +6,14 @@
   background: linear-gradient(#20c5c5 0%, #4f44a8 100%);
   @include breakpoint(desktop--Small) {
     justify-content: space-evenly;
-  } 
-  
+  }
+
   @include breakpoint(tablet) {
     height: 35vh;
   }
   @include breakpoint(iPhone) {
     flex-direction: column;
     height: 100%;
-    
   }
 
   &_left {
@@ -30,26 +27,22 @@
     @include breakpoint(iPhone) {
       margin-bottom: 5rem;
     }
-    
-  
   }
 
   &_details {
     display: flex;
     align-items: center;
 
-    @include breakpoint(iPhone)  {
+    @include breakpoint(iPhone) {
       flex-direction: column;
     }
-    
   }
 
   &_icons {
     font-family: $fontMont;
     font-size: 1.6rem;
-    color:#99ffeb;
-    padding-right:2rem;
-
+    color: #99ffeb;
+    padding-right: 2rem;
 
     @include breakpoint(iPhone) {
       display: flex;
@@ -60,18 +53,18 @@
   &_icons i {
     margin-right: 1rem;
     line-height: 5rem;
-    
   }
 
   &_icons h6 {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
     font-weight: 400;
+    text-transform: uppercase;
 
     &:not(:last-child) {
       padding-right: 20px;
     }
   }
-  
+
   & a {
     text-decoration: none;
     font-family: "Montserrat", sans-serif;
@@ -80,11 +73,34 @@
   }
 
   &_icons .hide {
-
     @include breakpoint(iPhone) {
       display: none;
     }
-    
+  }
+
+  &_links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #453b91;
+
+    &_link {
+      display: flex;
+      text-decoration: none;
+    }
+
+    img {
+      width: 15px;
+      vertical-align: middle;
+    }
+
+    p {
+      font-family: $fontMont;
+      font-size: 1.5rem;
+      font-weight: 400;
+      color: #f8f7f7c0;
+      padding-right: 1rem;
+    }
   }
 }
 
@@ -93,29 +109,65 @@
   height: 250px;
   opacity: 0.7;
 
-  @include breakpoint (iPhone) {
+  @include breakpoint(iPhone) {
     width: 310px;
     height: 150px;
     margin: 20px 0;
   }
 
-  @include breakpoint (mobile--Smallest) {
+  @include breakpoint(mobile--Smallest) {
     width: 280px;
   }
 }
 
 .footer-text {
   height: 6vh;
-  background-color:#4f44a8;
+  background-color: #453b91;
   display: flex;
   justify-content: center;
   align-items: center;
   font-family: $fontMont;
   font-size: 1.5rem;
   font-weight: 400;
-  color:  #f8f7f7c0;
+  color: #f8f7f7c0;
+  margin-left: 20rem;
+  margin-right: 20rem;
+
+  
+
+  @include breakpoint(tablet) {
+    margin-left: 2rem;
+    margin-right: 0;
+  }
+
+  &::before {
+    content: "-";
+    color: #20c5c5;
+    font-size: 70px;
+    font-weight: 200;
+    transform: rotate(90deg);
+    margin-right: 20rem;
+
+    @include breakpoint(tablet) {
+      margin-right: -2rem;
+    }
+  }
+
+  &::after {
+    content: "-";
+    color: #20c5c5;
+    font-size: 70px;
+    font-weight: 200;
+    transform: rotate(90deg);
+    margin-left: 22rem;
+
+    @include breakpoint(tablet) {
+      margin-left: 0;
+      
+    }
+  }
 }
 
 .link-hidden {
   visibility: hidden;
- }
+}

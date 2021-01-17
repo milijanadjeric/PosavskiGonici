@@ -100,3 +100,12 @@
 .slick-arrow.slick-hidden {
     display: none;
 }
+
+button#slick-slide01 {
+    display: none;
+
+    @include breakpoint(iPhone) {
+        display: flex;
+    }
+}
+
