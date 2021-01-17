@@ -801,6 +801,7 @@ nav .logo {
 .kontakt_links img {
   width: 15px;
   vertical-align: middle;
+  z-index: 999;
 }
 
 .kontakt_links p {
