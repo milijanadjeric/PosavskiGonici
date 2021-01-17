@@ -810,6 +810,12 @@ nav .logo {
   padding-right: 1rem;
 }
 
+@media (max-width: 415px) {
+  .kontakt_links_text {
+    display: none;
+  }
+}
+
 #gmap_canvas {
   width: 340px;
   height: 250px;
@@ -857,6 +863,20 @@ nav .logo {
   }
 }
 
+@media (max-width: 415px) {
+  .footer-text {
+    margin-left: 5rem;
+    margin-right: 2rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .footer-text {
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+}
+
 .footer-text::before {
   content: "-";
   color: #20c5c5;
@@ -873,6 +893,12 @@ nav .logo {
   }
 }
 
+@media (max-width: 415px) {
+  .footer-text::before {
+    margin-right: 3rem;
+  }
+}
+
 .footer-text::after {
   content: "-";
   color: #20c5c5;
@@ -886,6 +912,12 @@ nav .logo {
 @media (max-width: 800px) {
   .footer-text::after {
     margin-left: 0;
+  }
+}
+
+@media (max-width: 415px) {
+  .footer-text::after {
+    margin-left: 5rem;
   }
 }
 

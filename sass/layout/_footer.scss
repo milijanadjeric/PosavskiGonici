@@ -100,6 +100,14 @@
       font-weight: 400;
       color: #f8f7f7c0;
       padding-right: 1rem;
+
+      
+    }
+
+    &_text {
+      @include breakpoint(iPhone) {
+        display: none;
+      }
     }
   }
 }
@@ -140,6 +148,16 @@
     margin-right: 0;
   }
 
+  @include breakpoint(iPhone) {
+    margin-left: 5rem;
+    margin-right: 2rem;
+  }
+
+  @include breakpoint(mobile) {
+    margin-left: 4rem;
+    margin-right: 1rem;
+  }
+
   &::before {
     content: "-";
     color: #20c5c5;
@@ -150,6 +168,9 @@
 
     @include breakpoint(tablet) {
       margin-right: -2rem;
+    }
+    @include breakpoint(iPhone) {
+      margin-right: 3rem;
     }
   }
 
@@ -165,6 +186,11 @@
       margin-left: 0;
       
     }
+    @include breakpoint(iPhone)  {
+      margin-left: 5rem;
+    }
+    
+    
   }
 }
 
