@@ -795,6 +795,7 @@ nav .logo {
   display: -ms-flexbox;
   display: flex;
   text-decoration: none;
+  z-index: 999;
 }
 
 .kontakt_links img {
