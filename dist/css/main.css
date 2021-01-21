@@ -2223,7 +2223,7 @@ input[type="submit"] {
 }
 
 img.next.slick-arrow {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
   position: absolute;
   right: 10%;
   z-index: 555;
@@ -2234,7 +2234,7 @@ img.next.slick-arrow.slick-disabled {
 }
 
 img.previous.slick-arrow {
-  margin-top: 6rem;
+  margin-top: 5.5rem;
   position: absolute;
   z-index: 555;
   top: 100%;
@@ -2248,7 +2248,7 @@ img.previous.slick-arrow.slick-disabled {
 /* Dots */
 .slick-dots {
   position: absolute;
-  bottom: -75px;
+  bottom: -70px;
   list-style: none;
   display: block;
   text-align: center;
