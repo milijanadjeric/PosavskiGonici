@@ -1,3 +1,86 @@
+.navigation-home {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(255, 255, 255);
+  height: 10vh;
+  box-shadow: 0 5px 5px #efefef;
+
+  @include breakpoint(desktop) {
+    height: 8vh;
+  }
+  @include breakpoint(desktop--Smaller) {
+    height: 10vh;
+  }
+  @include breakpoint(desktop--Small) {
+    height: 9vh;
+  }
+  @include breakpoint(ipad--Landscape) {
+    height: 6vh;
+  }
+
+  @include breakpoint(tablet) {
+    height: 5vh;
+  }
+  @include breakpoint(iPhone) {
+    display: none;
+  }
+  @include breakpoint(desktop--Big) {
+    height: 8vh;
+  }
+
+  ul {
+    display: flex;
+    list-style: none;
+    margin-right: 5rem;
+
+    @include breakpoint(tablet) {
+      margin-right: 0;
+    }
+
+    @include breakpoint(iPhone) {
+      display: none;
+    }
+  }
+
+  li {
+    text-transform: uppercase;
+    padding-right: 8rem;
+    font-family: $fontMont;
+    font-size: 1.6rem;
+    font-weight: 600;
+    letter-spacing: 0.1rem;
+
+    
+    
+    
+  }
+
+  li a {
+    text-decoration: none;
+    color: $linksColor;
+
+    &:hover  {
+      color: #5044a8d0;
+      cursor: pointer;
+    }
+
+  }
+
+  .logo {
+    width: 8rem;
+    margin-left: 13rem;
+
+    @include breakpoint(tablet) {
+      margin-left: 3rem;
+    }
+
+    @include breakpoint(iPhone) {
+      margin-left: 4rem;
+    }
+  }
+}
+
 .main {
   background-color: rgba(0, 0, 0, 0.9);
   display: flex;
