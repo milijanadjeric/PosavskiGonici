@@ -440,7 +440,7 @@ button#loadLess.loadMore {
   color: white;
 }
 
-nav {
+.navigation {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -457,37 +457,37 @@ nav {
 }
 
 @media (max-width: 1440px) {
-  nav {
+  .navigation {
     height: 8vh;
   }
 }
 
 @media (max-width: 1366px) {
-  nav {
+  .navigation {
     height: 10vh;
   }
 }
 
 @media (max-width: 1280px) {
-  nav {
+  .navigation {
     height: 9vh;
   }
 }
 
 @media (max-width: 1024px) {
-  nav {
+  .navigation {
     height: 6vh;
   }
 }
 
 @media (max-width: 800px) {
-  nav {
+  .navigation {
     height: 5vh;
   }
 }
 
 @media (max-width: 415px) {
-  nav {
+  .navigation {
     height: 8vh;
     -webkit-box-align: center;
         -ms-flex-align: center;
@@ -496,12 +496,12 @@ nav {
 }
 
 @media (min-width: 1920px) {
-  nav {
+  .navigation {
     height: 8vh;
   }
 }
 
-nav ul {
+.navigation ul {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -510,18 +510,18 @@ nav ul {
 }
 
 @media (max-width: 800px) {
-  nav ul {
+  .navigation ul {
     margin-right: 0;
   }
 }
 
 @media (max-width: 415px) {
-  nav ul {
+  .navigation ul {
     display: none;
   }
 }
 
-nav li {
+.navigation li {
   text-transform: uppercase;
   padding-right: 8rem;
   font-family: "Montserrat", sans-serif;
@@ -530,29 +530,29 @@ nav li {
   letter-spacing: 0.1rem;
 }
 
-nav li a {
+.navigation li a {
   text-decoration: none;
   color: #4f44a8;
 }
 
-nav li a:hover {
+.navigation li a:hover {
   color: #5044a8d0;
   cursor: pointer;
 }
 
-nav .logo {
+.navigation .logo {
   width: 8rem;
   margin-left: 13rem;
 }
 
 @media (max-width: 800px) {
-  nav .logo {
+  .navigation .logo {
     margin-left: 3rem;
   }
 }
 
 @media (max-width: 415px) {
-  nav .logo {
+  .navigation .logo {
     margin-left: 4rem;
   }
 }
@@ -1172,9 +1172,9 @@ nav .logo {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    -webkit-box-align: start;
-        -ms-flex-align: start;
-            align-items: flex-start;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
     height: 100vh;
     background-image: -webkit-gradient(linear, left bottom, left top, color-stop(20%, rgba(0, 0, 0, 0.3)), color-stop(60%, rgba(0, 0, 0, 0.5)), to(rgba(0, 0, 0, 0.9))), url(../../img/4Copy.jpg);
     background-image: linear-gradient(to top, rgba(0, 0, 0, 0.3) 20%, rgba(0, 0, 0, 0.5) 60%, rgba(0, 0, 0, 0.9) 100%), url(../../img/4Copy.jpg);
@@ -1193,12 +1193,6 @@ nav .logo {
   width: 4.5rem;
   margin-right: 5rem;
   margin-top: 2.5rem;
-}
-
-@media (max-width: 415px) {
-  .navigation {
-    display: none;
-  }
 }
 
 /*  ABOUT US SECTION  */
